@@ -30,7 +30,9 @@ public sealed partial class GhostGui : UIWidget
     public event Action? ReturnToBodyPressed;
     public event Action? GhostRolesPressed;
     public event Action? GhostBarPressed; // Goobstation - Ghost Bar
+    public event Action? ReturnToRoundPressed; // Andromeda - Respawn
     private int _prevNumberRoles;
+    
 
     public GhostGui()
     {
@@ -47,6 +49,7 @@ public sealed partial class GhostGui : UIWidget
         GhostRolesButton.OnPressed += _ => GhostRolesPressed?.Invoke();
         GhostBarButton.OnPressed += _ => GhostBarPressed?.Invoke(); // Goobstation - Ghost Bar
         GhostRolesButton.OnPressed += _ => GhostRolesButton.StyleClasses.Remove(StyleBase.ButtonCaution);
+        ReturnToRound.OnPressed += _ => ReturnToRoundPressed?.Invoke(); // Andromeda - Respawn
     }
 
     public void Hide()

@@ -30,6 +30,10 @@
 //
 // SPDX-License-Identifier: MIT
 
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Threading.Tasks;
+using Content.Server.Ghost;
 using Content.Server.GameTicking.Presets;
 using Content.Server.Maps;
 using Content.Shared.CCVar;
@@ -43,6 +47,7 @@ namespace Content.Server.GameTicking
 {
     public sealed partial class GameTicker
     {
+        [Dependency] private readonly GhostReturnToRoundSystem _ghostReturnToRound = default!;
         public const float PresetFailedCooldownIncrease = 30f;
 
         /// <summary>

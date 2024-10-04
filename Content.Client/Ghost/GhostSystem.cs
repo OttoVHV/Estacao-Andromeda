@@ -278,5 +278,11 @@ namespace Content.Client.Ghost
             isNowVisible = spriteComponent.Visible;
             return true;
         }
+
+        public void ReturnToRound()
+        {
+            var msg = new GhostReturnToRoundRequest();
+            RaiseNetworkEvent(msg);
+        }
     }
 }
