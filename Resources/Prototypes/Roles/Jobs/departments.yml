@@ -183,6 +183,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - Brigmedic # Funkystation
   - SecurityClown # event-restricted
 
 - type: department

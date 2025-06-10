@@ -33,20 +33,14 @@
   equipment:
     back: ClothingBackpackBrigmedic
 
-- type: loadout
-  id: BrigmedicHead
-  equipment:
-    head: ClothingHeadHatBeretBrigmedic
-
 - type: loadoutGroup
   id: BrigmedicJumpsuit
   name: loadout-group-brigmedic-jumpsuit
   loadouts:
   - BrigmedicJumpsuitBrigmedic
   - BrigmedicJumpskirtBrigmedic
-  - SecurityJumpsuitGrey
-  - SecurityJumpskirtGrey
   - BrigmedicJumpskirtOfLife
+  - SecurityJumpskirtGrey
 
 - type: loadoutGroup
   id: BrigmedicAMGGroup
@@ -61,9 +55,3 @@
   - BrigmedicBackpackSatchel
   - BrigmedicBackpackDuffel
   - BrigmedicBackpack
-
-- type: loadoutGroup
-  id: BrigmedicHeadGroup
-  name: loadout-group-bridmedic-head
-  loadouts:
-  - BrigmedicHead
