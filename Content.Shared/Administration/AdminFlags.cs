@@ -143,7 +143,7 @@ namespace Content.Shared.Administration
         /// <summary>
         ///     DeltaV - Lets you use the Curator Chat
         /// </summary>
-        CuratorChat = 1 << 30,
+        CuratorHelp = 1 << 30,
 
         /// <summary>
         ///     Dangerous host permissions like scsi.

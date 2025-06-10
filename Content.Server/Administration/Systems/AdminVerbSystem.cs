@@ -172,6 +172,16 @@ namespace Content.Server.Administration.Systems
                     verb.Impact = LogImpact.Low;
                     args.Verbs.Add(verb);
 
+                    // DeltaV - CuratorHelp
+                    Verb cHelpVerb = new();
+                    cHelpVerb.Text = Loc.GetString("chelp-verb-get-data-text");
+                    cHelpVerb.Category = VerbCategory.Admin;
+                    cHelpVerb.Icon = new SpriteSpecifier.Texture(new("/Textures/_DV/Interface/curator2.svg.192dpi.png"));
+                    cHelpVerb.Act = () =>
+                        _console.RemoteExecuteCommand(player, $"openchelp \"{targetActor.PlayerSession.UserId}\"");
+                    cHelpVerb.Impact = LogImpact.Low;
+                    args.Verbs.Add(cHelpVerb);
+
                     // Subtle Messages
                     Verb prayerVerb = new();
                     prayerVerb.Text = Loc.GetString("prayer-verbs-subtle-message");
@@ -231,25 +241,10 @@ namespace Content.Server.Administration.Systems
                                     return;
                                 }
 
-                                var stationUid = _stations.GetOwningStation(args.Target);
-                                var profile = _humanoidAppearance.GetBaseProfile(args.Target);
-                                _spawning.SpawnPlayerMob(coords.Value, null, profile, stationUid);
-                            },
-                            ConfirmationPopup = true,
-                            Impact = LogImpact.High,
-                        });
-
-                        // PlayerPanel
-                        args.Verbs.Add(new Verb
-                        {
-                            Text = Loc.GetString("admin-player-actions-player-panel"),
-                            Category = VerbCategory.Admin,
-                            Act = () => _console.ExecuteCommand(player, $"playerpanel \"{targetActor.PlayerSession.UserId}\""),
-                            Impact = LogImpact.Low
-                        });
-                    }
-
-                    if (_mindSystem.TryGetMind(args.Target, out var mindId, out var mindComp) && mindComp.UserId != null)
+                // Begin DeltaV Additions - thaven moods
+                if (TryComp<ThavenMoodsComponent>(args.Target, out var moods))
+                {
+                    args.Verbs.Add(new Verb()
                     {
                         // Erase
                         args.Verbs.Add(new Verb
@@ -373,7 +368,7 @@ namespace Content.Server.Administration.Systems
                         {
                             _console.ExecuteCommand(player, $"tpto {GetNetEntity(args.Target)}");
                         },
-                        Impact = LogImpact.Low
+                        Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/Interface/Actions/actions_borg.rsi"), "state-laws"),
                     });
 
                     // TeleportHere
