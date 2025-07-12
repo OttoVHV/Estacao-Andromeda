@@ -497,6 +497,7 @@
     - SecurityBackpack
     - DetectiveOuterClothing
     - SecurityShoes
+    - DetectivePDA # funkystation
     - SurvivalSecurity
     - SecurityArmas # Andromeda
     - SecurityAllAmmo # Andromeda
@@ -706,7 +707,8 @@
 - type: roleLoadout
   id: RoleSurvivalVoxSupport
   groups:
-    - GroupSpeciesBreathTool
+  - GroupSpeciesBreathTool
+
 
 # gives vox a nitrogen breathing tank
 # other species get nothing
@@ -718,37 +720,43 @@
 - type: roleLoadout
   id: RoleSurvivalStandard
   groups:
-    - Survival
-    - GroupSpeciesBreathTool
+  - Survival
+  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: RoleSurvivalClown
   groups:
-    - SurvivalClown
+  - SurvivalClown
+
 
 - type: roleLoadout
   id: RoleSurvivalExtended
   groups:
-    - SurvivalExtended
-    - GroupSpeciesBreathTool
+  - SurvivalExtended
+  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: RoleSurvivalMedical
   groups:
-    - SurvivalMedical
-    - GroupSpeciesBreathToolMedical
+  - SurvivalMedical
+  - GroupSpeciesBreathToolMedical
+
 
 - type: roleLoadout
   id: RoleSurvivalSecurity
   groups:
-    - SurvivalSecurity
-    - GroupSpeciesBreathToolSecurity
+  - SurvivalSecurity
+  - GroupSpeciesBreathToolSecurity
+
 
 - type: roleLoadout
   id: RoleSurvivalSyndicate
   groups:
-    - SurvivalSyndicate
-    - GroupSpeciesBreathTool
+  - SurvivalSyndicate
+  - GroupSpeciesBreathTool
+
 
 - type: roleLoadout
   id: RoleSurvivalNukie
