@@ -1,0 +1,11 @@
+- type: roleLoadout
+  id: JobVisitorVIP
+  groups:
+    - Glasses
+    - Survival
+    - Trinkets
+    - ApoiadoresGroup # Andromeda
+    - GroupSpeciesBreathTool
+    - ShocksGroup
+    - UnderPantsGroup
+    - UnderShirtGroup

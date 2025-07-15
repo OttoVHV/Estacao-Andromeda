@@ -42,3 +42,6 @@
     ears: ClothingHeadsetVisitorVIP
     back: ClothingBackpackSatchelLeather
     pocket1: LockedMicroCofreVIP
+  storage:
+    back:
+    - Flash
