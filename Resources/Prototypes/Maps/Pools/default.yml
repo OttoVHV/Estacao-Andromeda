@@ -1,13 +1,20 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Reach # funky station - for lowpop enjoyers
-  - Barratry
-  - Fland
-  - Cluster
+  - roid_outpost
+  - Amber
+  - Elkridge
+  - Glacier
   - Omega
-  - Origin
+  - Cluster
   - Box
   - Bagel
+  - Barratry
+  - Fland
+  - Marathon
+  - Meta
+  - Relic
+  - Saltern
+  - Core
 
 
