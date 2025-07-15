@@ -1,0 +1,44 @@
+﻿- type: job
+  id: VisitorVIP
+  name: Visitante V.I.P
+  description: "Seja socialmente importante, desenvolva seu objetivo pessoal ou empresarial na estação"
+  playTimeTracker: JobVisitorVIP
+  requirements:
+  - !type:OverallPlaytimeRequirement
+      time: 00
+  setPreference: true
+  startingGear: VisitorVIPGear
+  icon: "JobIconVisitorVIP"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  whitelisted: true
+  access:
+  - Command
+  - External
+  - Maintenance
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants:
+    - MindShieldImplant
+    - BluespaceLifelineImplant
+  afterLoadoutSpecial:
+  - !type:ModifyEnvirosuitSpecial
+    charges: 10
+  - !type:ModifyEnvirohelmSpecial
+    powerCell: PowerCellHigh
+
+- type: startingGear
+  id: VisitorVIPGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    outerclothing: ClothingOuterCoatGentle
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesCheapSunglasses
+    gloves: ClothingHandsGlovesLatex
+    id: VisitorVIPPDA
+    ears: ClothingHeadsetVisitorVIP
+    back: ClothingBackpackSatchelLeather
+    pocket1: LockedMicroCofreVIP

@@ -287,6 +287,9 @@
     {
       "name": "green-inhand-right",
       "directions": 4
-    }
+    },
+        {
+            "name": "vip"
+        }
   ]
 }
