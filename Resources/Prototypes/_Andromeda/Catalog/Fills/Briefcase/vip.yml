@@ -6,7 +6,7 @@
   description: Um cofre de bolso ultrasseguro, compacto e discreto, custa mais que o rendimento de uma colônia em dez anos. Usado por executivos e contrabandistas que não podem se dar ao luxo de perder nada.
   components:
   - type: Sprite
-    sprite: _Andromeda/Objects/Storage/Briefcases/briefcasevip_locked.rsi
+    sprite: _Andromeda/Objects/Storage/Briefcases/briefcase_locked.rsi
     state: icon
   - type: AccessReader
     access:
@@ -17,8 +17,8 @@
     size: Small
   - type: StorageFill
     contents:
-    - id: SpaceCash25000
-      amount: 3
+    - id: SpaceCash20000
+      amount: 4
     - id: BoxFolderBlue
     - id: TreasureCoinDiamond
     - id: SilverRingDiamond

@@ -6,12 +6,12 @@
   components:
   - type: Pda
     id: VIPIDCard
-    state: pda-visitor-vip
+    state: pda
   - type: Icon
     sprite: _Andromeda/Objects/Devices/pda.rsi
-    state: pda-visitor-vip
+    state: pda
   - type: Sprite
     sprite: _Andromeda/Objects/Devices/pda.rsi
-    state: pda-visitor-vip
+    state: pda
   - type: PdaBorderColor
     borderColor: "#d6b70f"
