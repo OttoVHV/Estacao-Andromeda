@@ -81,6 +81,7 @@
   - type: GuideHelp
     guides:
     - Pumps
+  - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -146,6 +147,7 @@
     - type: GuideHelp
       guides:
       - Pumps
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -183,6 +185,7 @@
     - type: GuideHelp
       guides:
       - PassiveGate
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -239,6 +242,7 @@
     - type: GuideHelp
       guides:
       - ManualValve
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -306,7 +310,7 @@
   - type: GuideHelp
     guides:
     - SignalValve
-
+    - type: StationAiWhitelist
 - type: entity
   parent: GasBinaryBase
   id: GasPort
@@ -343,6 +347,7 @@
     - type: GuideHelp
       guides:
       - GasCanisters
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasVentPump
@@ -407,6 +412,7 @@
     - type: GuideHelp
       guides:
       - AirVent
+    - type: StationAiWhitelist
 
 - type: entity
   parent: [ BaseMachine, ConstructibleMachine ]
@@ -602,3 +608,4 @@
     - type: GuideHelp
       guides:
       - ManualValve
+    - type: StationAiWhitelist

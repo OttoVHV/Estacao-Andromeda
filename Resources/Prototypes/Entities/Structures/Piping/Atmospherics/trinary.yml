@@ -78,6 +78,7 @@
     - type: GuideHelp
       guides:
       - MixingAndFiltering
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasFilter
@@ -177,6 +178,7 @@
     - type: GuideHelp
       guides:
       - MixingAndFiltering
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasMixer
@@ -285,3 +287,4 @@
       - PneumaticValve
       - Pumps
       - Valves
+    - type: StationAiWhitelist
