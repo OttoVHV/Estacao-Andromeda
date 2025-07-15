@@ -1,16 +1,16 @@
-﻿- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
-  id: DefaultRuleset
-  name: guide-entry-rules
-  priority: -10
-  text: "/ServerInfo/Guidebook/ServerRules/DefaultRules.xml"
-  children:
-  - CoreRules
-#  - RoleplayRules
-#  - SiliconRules
-  - RoleTypes
-  - BanTypes
-  - BanDurations
-  - Metashield
+﻿#- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
+#  id: DefaultRuleset
+#  name: guide-entry-rules
+#  priority: -10
+#  text: "/ServerInfo/Guidebook/ServerRules/DefaultRules.xml"
+#  children:
+#  - CoreRules
+##  - RoleplayRules
+##  - SiliconRules
+#  - RoleTypes
+#  - BanTypes
+#  - BanDurations
+#  - Metashield
 
 - type: guideEntry
   id: RoleTypes
@@ -19,126 +19,126 @@
   priority: 20
   text: "/ServerInfo/Guidebook/ServerRules/RoleTypes.xml"
 
-- type: guideEntry
-  id: CoreRules
-  name: guide-entry-rules-core
-  ruleEntry: true
-  priority: 30
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC0.xml"
-  children:
-  - RuleC1
-  - RuleC2
-  - RuleC3
-  - RuleC4
-  - RuleC5
-  - RuleC6
-  - RuleC7
-  - RuleC8
-  - RuleC9
-  - RuleC10
-  - RuleC11
-  - RuleC12
-  - RuleC13
-#  - RuleC14
-
-- type: guideEntry
-  id: RuleC1
-  name: guide-entry-rules-c1
-  ruleEntry: true
-  priority: 1
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1DBAA.xml"
-
-- type: guideEntry
-  id: RuleC2
-  name: guide-entry-rules-c2
-  ruleEntry: true
-  priority: 2
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2English.xml"
-
-- type: guideEntry
-  id: RuleC3
-  name: guide-entry-rules-c3
-  ruleEntry: true
-  priority: 3
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3Age.xml"
-
-- type: guideEntry
-  id: RuleC4
-  name: guide-entry-rules-c4
-  ruleEntry: true
-  priority: 4
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4AdminRulings.xml"
-
-- type: guideEntry
-  id: RuleC5
-  name: guide-entry-rules-c5
-  ruleEntry: true
-  priority: 5
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5ERP.xml"
-
-- type: guideEntry
-  id: RuleC6
-  name: guide-entry-rules-c6
-  ruleEntry: true
-  priority: 6
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6Metagaming.xml"
-
-- type: guideEntry
-  id: RuleC7
-  name: guide-entry-rules-c7
-  ruleEntry: true
-  priority: 7
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7PlayYourCharacter.xml"
-
-- type: guideEntry
-  id: RuleC8
-  name: guide-entry-rules-c8
-  ruleEntry: true
-  priority: 8
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8Names.xml"
-
-- type: guideEntry
-  id: RuleC9
-  name: guide-entry-rules-c9
-  ruleEntry: true
-  priority: 9
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9UseProperEscalation.xml"
-
-- type: guideEntry
-  id: RuleC10
-  name: guide-entry-rules-c10
-  ruleEntry: true
-  priority: 10
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10SecandCommand.xml"
-
-- type: guideEntry
-  id: RuleC11
-  name: guide-entry-rules-c11
-  ruleEntry: true
-  priority: 11
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11SiliconPolicy.xml"
-
-- type: guideEntry
-  id: RuleC12
-  name: guide-entry-rules-c12
-  ruleEntry: true
-  priority: 12
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12Antag.xml"
-
-- type: guideEntry
-  id: RuleC13
-  name: guide-entry-rules-c13
-  ruleEntry: true
-  priority: 13
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC13NoEORG.xml"
-
-- type: guideEntry
-  id: Metashield
-  name: guide-entry-metashield
-  ruleEntry: false
-  priority: 4
-  text: "/ServerInfo/Guidebook/ServerRules/Metashield.xml"
-  
+#- type: guideEntry
+#  id: CoreRules
+#  name: guide-entry-rules-core
+#  ruleEntry: true
+#  priority: 30
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC0.xml"
+#  children:
+#  - RuleC1
+#  - RuleC2
+#  - RuleC3
+#  - RuleC4
+#  - RuleC5
+#  - RuleC6
+#  - RuleC7
+#  - RuleC8
+#  - RuleC9
+#  - RuleC10
+#  - RuleC11
+#  - RuleC12
+#  - RuleC13
+##  - RuleC14
+#
+#- type: guideEntry
+#  id: RuleC1
+#  name: guide-entry-rules-c1
+#  ruleEntry: true
+#  priority: 1
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1DBAA.xml"
+#
+#- type: guideEntry
+#  id: RuleC2
+#  name: guide-entry-rules-c2
+#  ruleEntry: true
+#  priority: 2
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2English.xml"
+#
+#- type: guideEntry
+#  id: RuleC3
+#  name: guide-entry-rules-c3
+#  ruleEntry: true
+#  priority: 3
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3Age.xml"
+#
+#- type: guideEntry
+#  id: RuleC4
+#  name: guide-entry-rules-c4
+#  ruleEntry: true
+#  priority: 4
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4AdminRulings.xml"
+#
+#- type: guideEntry
+#  id: RuleC5
+#  name: guide-entry-rules-c5
+#  ruleEntry: true
+#  priority: 5
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5ERP.xml"
+#
+#- type: guideEntry
+#  id: RuleC6
+#  name: guide-entry-rules-c6
+#  ruleEntry: true
+#  priority: 6
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6Metagaming.xml"
+#
+#- type: guideEntry
+#  id: RuleC7
+#  name: guide-entry-rules-c7
+#  ruleEntry: true
+#  priority: 7
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7PlayYourCharacter.xml"
+#
+#- type: guideEntry
+#  id: RuleC8
+#  name: guide-entry-rules-c8
+#  ruleEntry: true
+#  priority: 8
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8Names.xml"
+#
+#- type: guideEntry
+#  id: RuleC9
+#  name: guide-entry-rules-c9
+#  ruleEntry: true
+#  priority: 9
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9UseProperEscalation.xml"
+#
+#- type: guideEntry
+#  id: RuleC10
+#  name: guide-entry-rules-c10
+#  ruleEntry: true
+#  priority: 10
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10SecandCommand.xml"
+#
+#- type: guideEntry
+#  id: RuleC11
+#  name: guide-entry-rules-c11
+#  ruleEntry: true
+#  priority: 11
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11SiliconPolicy.xml"
+#
+#- type: guideEntry
+#  id: RuleC12
+#  name: guide-entry-rules-c12
+#  ruleEntry: true
+#  priority: 12
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12Antag.xml"
+#
+#- type: guideEntry
+#  id: RuleC13
+#  name: guide-entry-rules-c13
+#  ruleEntry: true
+#  priority: 13
+#  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC13NoEORG.xml"
+#
+#- type: guideEntry
+#  id: Metashield
+#  name: guide-entry-metashield
+#  ruleEntry: false
+#  priority: 4
+#  text: "/ServerInfo/Guidebook/ServerRules/Metashield.xml"
+#  
 - type: guideEntry
   id: NamingScheme
   name: guide-entry-namingscheme
