@@ -1,7 +1,7 @@
 # Window headers
 holopad-window-title = { CAPITALIZE($title) }
 holopad-window-subtitle = Sistema de comunicação holográfica
-holopad-window-options = [color=darkgray] [tamanho_10] [italic] Por favor, selecione a opção na lista abaixo.
+holopad-window-options = [color=darkgray][font size=10][italic]Por favor, selecione a opção na lista abaixo.[/italic][/font][/color]
 # Call status
 holopad-window-no-calls-in-progress = Sem dormência ativa.
 holopad-window-incoming-call = Chegando dormente de:
@@ -11,7 +11,7 @@ holopad-window-call-in-progress = As vértebras em andamento
 holopad-window-call-ending = Desligar...
 holopad-window-call-rejected = Não conseguiu estabelecer conexão.
 holopad-window-ai-request = Sua presença pede:
-holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f] [negro] Há uma transmissão de emergência.
+holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold] Há uma transmissão de emergência.[/bold][/color]
 holopad-window-controls-locked-out = O controle deste dispositivo está bloqueado para:
 holopad-window-controls-unlock-countdown = Desbloqueando automaticamente através de: { $countdown }
 # Buttons
