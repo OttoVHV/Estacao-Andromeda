@@ -465,7 +465,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         }
     }
 
-    /// <summary>
+   /// <summary>
     /// Loads the profile onto a dummy entity.
     /// </summary>
     public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, bool jobClothes)
@@ -473,16 +473,15 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         EntityUid dummyEnt;
 
         EntProtoId? previewEntity = null;
+
         if (humanoid != null && jobClothes)
         {
             job ??= GetPreferredJob(humanoid);
-
             previewEntity = job.JobPreviewEntity ?? (EntProtoId?)job?.JobEntity;
         }
 
         if (previewEntity != null)
         {
-            // Special type like borg or AI, do not spawn a human just spawn the entity.
             dummyEnt = EntityManager.SpawnEntity(previewEntity, MapCoordinates.Nullspace);
             return dummyEnt;
         }
@@ -498,8 +497,10 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
 
         _humanoid.LoadProfile(dummyEnt, humanoid);
 
-        if (humanoid != null)
+        if (humanoid != null && jobClothes)
         {
+            job ??= GetPreferredJob(humanoid);
+
             DebugTools.Assert(job != null);
 
             RoleLoadout? roleLoadout = null;
@@ -508,17 +509,11 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
                 roleLoadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntityManager, _prototypeManager);
             }
 
-            // Aplica as roupas de baixo primeiro para garantir o layering correto.
-            GiveDummyLoadout(dummyEnt, roleLoadout, false); // Passagem de roupas de baixo
-                                                            // Em seguida, aplica o uniforme do trabalho por cima.
+            GiveDummyLoadout(dummyEnt, roleLoadout, false);
             GiveDummyJobClothes(dummyEnt, humanoid, job);
-
-            if (jobClothes)
-            {
-                // Se jobClothes for true, aplica o restante do loadout (roupas de cima).
-                GiveDummyLoadout(dummyEnt, roleLoadout, true); // Passagem de roupas de cima
-            }
+            GiveDummyLoadout(dummyEnt, roleLoadout, true);
         }
+
 
         return dummyEnt;
     }
