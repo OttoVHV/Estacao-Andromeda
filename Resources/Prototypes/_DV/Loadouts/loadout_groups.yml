@@ -27,4 +27,6 @@
   name: loadout-group-detective-outerclothing
   loadouts:
   - StasecWinterCoatDet
+  - PlateCarrier
+  - DuraVest
   - DetPlatedCoat

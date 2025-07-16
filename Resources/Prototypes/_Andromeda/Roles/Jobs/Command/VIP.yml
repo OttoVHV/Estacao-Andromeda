@@ -24,6 +24,11 @@
     implants:
     - MindShieldImplant
     - BluespaceLifelineImplant
+  afterLoadoutSpecial:
+  - !type:ModifyEnvirosuitSpecial
+    charges: 10
+  - !type:ModifyEnvirohelmSpecial
+    powerCell: PowerCellHigh
 
 - type: startingGear
   id: VisitorVIPGear

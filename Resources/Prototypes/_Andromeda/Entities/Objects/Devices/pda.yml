@@ -6,6 +6,7 @@
   components:
   - type: Pda
     id: VIPIDCard
+    state: pda
   - type: Icon
     sprite: _Andromeda/Objects/Devices/pda.rsi
     state: pda

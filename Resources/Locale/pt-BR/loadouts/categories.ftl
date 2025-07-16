@@ -36,4 +36,3 @@ loadout-category-Outer = Casaco
 loadout-category-Shoes = Sapatos
 loadout-category-Species = Espécies
 loadout-category-Uniform = Uniforme
-loadout-group-apoiadores = De Apoiadores

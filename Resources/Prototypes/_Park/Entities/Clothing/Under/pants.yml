@@ -23,7 +23,7 @@
       # noRot: true
       state: icon
     - type: TemperatureProtection
-      heatingCoefficient: 0.80
+      coefficient: 0.80
 
 - type: entity
   parent: ClothingUnderPantsBase
@@ -189,7 +189,7 @@
         underpants:
           - state: jockstrap
     - type: TemperatureProtection
-      heatingCoefficient: 0.98
+      coefficient: 0.98
 
 - type: entity
   parent: ClothingUnderPantsBase
@@ -206,7 +206,7 @@
         underpants:
           - state: ljonb
     - type: TemperatureProtection
-      heatingCoefficient: 0.70
+      coefficient: 0.70
 
 - type: entity
   parent: ClothingUnderPantsBase
@@ -253,7 +253,7 @@
         underpants:
           - state: panties_bee-kini
     - type: TemperatureProtection
-      heatingCoefficient: 0.85
+      coefficient: 0.85
 
 - type: entity
   parent: ClothingUnderPantsBase
