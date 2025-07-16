@@ -361,32 +361,32 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     }
 
     public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout, bool outerwear)
-{
-    if (roleLoadout == null)
-        return;
-
-    var underwearSlots = new HashSet<string> { "undershirt", "underpants", "socks" };
-
-    foreach (var group in roleLoadout.SelectedLoadouts.Values)
     {
-        foreach (var loadout in group)
+        if (roleLoadout == null)
+            return;
+    
+        var underwearSlots = new HashSet<string> { "undershirt", "underpants", "socks" };
+    
+        foreach (var group in roleLoadout.SelectedLoadouts.Values)
         {
-            if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto) || !loadoutProto.Equipment.Any())
-                continue;
-
-            bool isPureUnderwear = loadoutProto.Equipment.Keys.All(underwearSlots.Contains);
-
-            // A condição agora é uma única verificação booleana.
-            // Equipar se (queremos outerwear E o item NÃO é só underwear) OU (queremos underwear E o item É só underwear).
-            bool shouldWear = (outerwear && !isPureUnderwear) || (!outerwear && isPureUnderwear);
-
-            if (shouldWear)
+            foreach (var loadout in group)
             {
-                _spawn.EquipStartingGear(uid, loadoutProto);
+                if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto) || !loadoutProto.Equipment.Any())
+                    continue;
+    
+                bool isPureUnderwear = loadoutProto.Equipment.Keys.All(underwearSlots.Contains);
+    
+                // A condição agora é uma única verificação booleana.
+                // Equipar se (queremos outerwear E o item NÃO é só underwear) OU (queremos underwear E o item É só underwear).
+                bool shouldWear = (outerwear && !isPureUnderwear) || (!outerwear && isPureUnderwear);
+    
+                if (shouldWear)
+                {
+                    _spawn.EquipStartingGear(uid, loadoutProto);
+                }
             }
         }
     }
-}
 
     /// <summary>
     /// Applies the specified job's clothes to the dummy.
