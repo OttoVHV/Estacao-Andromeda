@@ -353,19 +353,30 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         return _prototypeManager.Index<JobPrototype>(highPriorityJob.Id ?? SharedGameTicker.FallbackOverflowJob);
     }
 
-    public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout)
+    public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout, bool outerwear)
     {
         if (roleLoadout == null)
             return;
-
+    
+        var underwearSlots = new HashSet<string> { "undershirt", "underpants", "socks" };
+    
         foreach (var group in roleLoadout.SelectedLoadouts.Values)
         {
             foreach (var loadout in group)
             {
-                if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto))
+                if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto) || !loadoutProto.Equipment.Any())
                     continue;
-
-                _spawn.EquipStartingGear(uid, loadoutProto);
+    
+                bool isPureUnderwear = loadoutProto.Equipment.Keys.All(underwearSlots.Contains);
+    
+                // A condição agora é uma única verificação booleana.
+                // Equipar se (queremos outerwear E o item NÃO é só underwear) OU (queremos underwear E o item É só underwear).
+                bool shouldWear = (outerwear && !isPureUnderwear) || (!outerwear && isPureUnderwear);
+    
+                if (shouldWear)
+                {
+                    _spawn.EquipStartingGear(uid, loadoutProto);
+                }
             }
         }
     }
@@ -447,7 +458,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         }
     }
 
-    /// <summary>
+   /// <summary>
     /// Loads the profile onto a dummy entity.
     /// </summary>
     public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, bool jobClothes)
@@ -455,16 +466,15 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
         EntityUid dummyEnt;
 
         EntProtoId? previewEntity = null;
+
         if (humanoid != null && jobClothes)
         {
             job ??= GetPreferredJob(humanoid);
-
             previewEntity = job.JobPreviewEntity ?? (EntProtoId?)job?.JobEntity;
         }
 
         if (previewEntity != null)
         {
-            // Special type like borg or AI, do not spawn a human just spawn the entity.
             dummyEnt = EntityManager.SpawnEntity(previewEntity, MapCoordinates.Nullspace);
             return dummyEnt;
         }
@@ -482,16 +492,21 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
 
         if (humanoid != null && jobClothes)
         {
+            job ??= GetPreferredJob(humanoid);
+
             DebugTools.Assert(job != null);
 
-            GiveDummyJobClothes(dummyEnt, humanoid, job);
-
+            RoleLoadout? roleLoadout = null;
             if (_prototypeManager.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)))
             {
-                var loadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntityManager, _prototypeManager);
-                GiveDummyLoadout(dummyEnt, loadout);
+                roleLoadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntityManager, _prototypeManager);
             }
+
+            GiveDummyLoadout(dummyEnt, roleLoadout, false);
+            GiveDummyJobClothes(dummyEnt, humanoid, job);
+            GiveDummyLoadout(dummyEnt, roleLoadout, true);
         }
+
 
         return dummyEnt;
     }

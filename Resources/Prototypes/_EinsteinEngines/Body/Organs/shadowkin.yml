@@ -21,12 +21,12 @@
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
     layers:
     - state: eyes
-  - type: Organ
-    onAdd:
-    - type: NightVision # Goobstation - Nightvision
-      color: Gray
-      activateSound: null
-      deactivateSound: null
+  #- type: Organ
+    #onAdd:
+    #- type: NightVision # Goobstation - Nightvision
+    #  color: Gray
+    #  activateSound: null
+    #  deactivateSound: null
 
 - type: entity
   id: OrganShadowkinEars

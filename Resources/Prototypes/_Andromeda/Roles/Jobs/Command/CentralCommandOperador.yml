@@ -28,18 +28,13 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
-  afterLoadoutSpecial:
-  - !type:ModifyEnvirosuitSpecial
-    charges: 10
-  - !type:ModifyEnvirohelmSpecial
-    powerCell: PowerCellHigh
 
 - type: startingGear
   id: CentcomOperadorGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOperador
     shoes: ClothingShoesBootsCombatFilled
-    head: ClothingHeadHatBeretCentcomm
+    #head: ClothingHeadHatBeretCentcomm
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasic
