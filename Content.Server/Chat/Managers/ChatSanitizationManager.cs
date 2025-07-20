@@ -90,7 +90,12 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "(':", "chatsan-tearfully-smiles" },
         { "[':", "chatsan-tearfully-smiles" },
         { "('=", "chatsan-tearfully-smiles" },
-        { "['=", "chatsan-tearfully-smiles" }
+        { "['=", "chatsan-tearfully-smiles" },
+         { "kkkkkkk", "chatsan-laughs" },
+        { "kkkkkk", "chatsan-laughs" },
+        { "kkkkk", "chatsan-laughs" },
+        { "kkkk", "chatsan-laughs" }, 
+        { "kkk", "chatsan-laughs" }
     };
 
     [Dependency] private readonly IConfigurationManager _configurationManager = default!;
