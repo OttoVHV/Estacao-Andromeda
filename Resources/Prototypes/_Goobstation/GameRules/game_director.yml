@@ -18,7 +18,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 25
+    minPlayers: 10 # Andromeda
   - type: GameDirector
     calmAntagAmount: 1 # Funky: More precise control over antag types spawned
     stories:
@@ -51,7 +51,7 @@
 - type: story
   id: Science
   description: Science and engineering issues
-  minPlayers: 30
+  minPlayers: 15 # Andromeda
   beats:
     - Peace
     - MadScience

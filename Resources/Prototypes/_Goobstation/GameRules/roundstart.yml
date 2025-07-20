@@ -143,7 +143,7 @@
   parent: BaseGameRule
   components:
   - type: GameRule
-    minPlayers: 30
+    minPlayers: 20
   - type: RevolutionaryRule
   - type: AntagSelection
     selectionTime: IntraPlayerSpawn
@@ -179,7 +179,7 @@
   components:
   - type: BlobRule
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 20
     delay: # 7-10 minutes
       min: 420
       max: 600
