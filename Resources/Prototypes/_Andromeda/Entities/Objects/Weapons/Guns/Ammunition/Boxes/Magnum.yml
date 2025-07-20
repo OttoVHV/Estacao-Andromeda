@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseMagazineBoxMagnum
+  id: MagazineBoxSpecial
+  name: Caixa de munição (.38 Special)
+  description: Caixa de munição .38 Special.
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecial
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecial
+  result: MagazineBoxSpecial
+  materials:
+    Steel: 240

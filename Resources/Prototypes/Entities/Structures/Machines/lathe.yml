@@ -338,6 +338,8 @@
     - CartridgePoison
     - SecHypo # Goobstation
     - ParamedHypo # Goobstation - ParamedHypo
+    - MagazineBoxSpecial # Andromeda
+
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -949,6 +951,7 @@
     - SecHypo # Goobstation
     - autoInjectorCartridgeCase
     - autoInjectorCartridgeCaseSoft
+    - MagazineBoxSpecial # Andromeda
     dynamicRecipes:
     - BoxBeanbag
     - BoxShotgunIncendiary
@@ -1073,6 +1076,7 @@
     - MagazineShotgunSlug
     - SpeedLoaderMagnum
     - SpeedLoaderMagnumEmpty
+    - MagazineBoxSpecial # Andromeda
   - type: EmagLatheRecipes # Goobstation
     emagStaticRecipes:
     - MagazinePistolCaselessRifle # Goobstation
