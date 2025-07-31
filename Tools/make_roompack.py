@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2023 Vordenburg <114301317+Vordenburg@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-#
-# SPDX-License-Identifier: MIT
-
 #!/usr/bin/python
 # Analyze the rectangular bounding boxes in a greyscale bitmap to create
 # dungeon room pack configs.

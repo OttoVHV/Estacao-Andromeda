@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using System.Diagnostics.Metrics;
+﻿using System.Diagnostics.Metrics;
 using System.Runtime.InteropServices;
 using Content.Server.Afk;
 using Robust.Server.DataMetrics;

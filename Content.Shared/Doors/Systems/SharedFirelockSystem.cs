@@ -1,18 +1,8 @@
-// SPDX-FileCopyrightText: 2024 Aiden <aiden@djkraz.com>
-// SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
-// SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 ShadowCommander <10494922+ShadowCommander@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 jackel234 <52829582+jackel234@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Shared.Access.Systems;
 using Content.Shared.Doors.Components;
 using Content.Shared.Examine;
 using Content.Shared.Popups;
 using Content.Shared.Prying.Components;
-using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
 namespace Content.Shared.Doors.Systems;
@@ -37,7 +27,7 @@ public abstract class SharedFirelockSystem : EntitySystem
 
         // Visuals
         SubscribeLocalEvent<FirelockComponent, MapInitEvent>(UpdateVisuals);
-        SubscribeLocalEvent<FirelockComponent, ComponentStartup>(OnComponentStartup);
+        SubscribeLocalEvent<FirelockComponent, ComponentStartup>(UpdateVisuals);
 
         SubscribeLocalEvent<FirelockComponent, ExaminedEvent>(OnExamined);
     }
@@ -114,11 +104,6 @@ public abstract class SharedFirelockSystem : EntitySystem
 
     #region Visuals
 
-    protected virtual void OnComponentStartup(Entity<FirelockComponent> ent, ref ComponentStartup args)
-    {
-        UpdateVisuals(ent.Owner,ent.Comp, args);
-    }
-
     private void UpdateVisuals(EntityUid uid, FirelockComponent component, EntityEventArgs args) => UpdateVisuals(uid, component);
 
     private void UpdateVisuals(EntityUid uid,
@@ -156,23 +141,4 @@ public abstract class SharedFirelockSystem : EntitySystem
                 args.PushMarkup(Loc.GetString("firelock-component-examine-temperature-warning"));
         }
     }
-}
-
-[Serializable, NetSerializable]
-public enum FirelockVisuals : byte
-{
-    PressureWarning,
-    TemperatureWarning,
-}
-
-[Serializable, NetSerializable]
-public enum FirelockVisualLayersPressure : byte
-{
-    Base
-}
-
-[Serializable, NetSerializable]
-public enum FirelockVisualLayersTemperature : byte
-{
-    Base
 }

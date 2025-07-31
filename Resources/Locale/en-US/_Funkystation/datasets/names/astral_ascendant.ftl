@@ -1,10 +1,4 @@
-# SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
-# SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
-# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
-names-ascendant-name-dataset-1 = It-That-Gazes,
+﻿names-ascendant-name-dataset-1 = It-That-Gazes,
 names-ascendant-name-dataset-2 = It-That-Fled,
 names-ascendant-name-dataset-3 = It-That-Waits,
 names-ascendant-name-dataset-4 = It-That-Whispers,

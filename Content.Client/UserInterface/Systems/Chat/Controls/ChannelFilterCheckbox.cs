@@ -1,14 +1,5 @@
-// SPDX-FileCopyrightText: 2022 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Jezithyr <Jezithyr.@gmail.com>
-// SPDX-FileCopyrightText: 2025 duston <66768086+dch-GH@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using Content.Shared.Chat;
-using Robust.Client.UserInterface;
+﻿using Content.Shared.Chat;
 using Robust.Client.UserInterface.Controls;
-using Robust.Shared.Input;
 
 namespace Content.Client.UserInterface.Systems.Chat.Controls;
 
@@ -17,8 +8,6 @@ public sealed class ChannelFilterCheckbox : CheckBox
     public readonly ChatChannel Channel;
 
     public bool IsHidden => Parent == null;
-
-    public event Action<ChannelFilterCheckbox>? OnRightClicked;
 
     public ChannelFilterCheckbox(ChatChannel channel)
     {
@@ -40,12 +29,5 @@ public sealed class ChannelFilterCheckbox : CheckBox
     public void UpdateUnreadCount(int? unread)
     {
         UpdateText(unread);
-    }
-
-    protected override void KeyBindDown(GUIBoundKeyEventArgs args)
-    {
-        base.KeyBindDown(args);
-        if (args.Function == EngineKeyFunctions.UIRightClick)
-            OnRightClicked?.Invoke(this);
     }
 }

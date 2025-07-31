@@ -56,11 +56,11 @@
       ]
     },
     {
-      "name": "equipped-TANKSTORAGE",
+      "name": "equipped-SUITSTORAGE",
       "directions": 4
     },
     {
-      "name": "on-equipped-TANKSTORAGE",
+      "name": "on-equipped-SUITSTORAGE",
       "directions": 4,
       "delays": [
         [

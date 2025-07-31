@@ -1,12 +1,3 @@
-// SPDX-FileCopyrightText: 2024 Aiden <aiden@djkraz.com>
-// SPDX-FileCopyrightText: 2024 PJBot <pieterjan.briers+bot@gmail.com>
-// SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
-// SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-// SPDX-FileCopyrightText: 2025 QueerCats <jansencheng3@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Body.Systems;
 using Content.Server.Station.Systems;
@@ -77,7 +68,7 @@ public sealed class AutoInternalsTests
   id: InternalsDummyGear
   equipment:
     mask: ClothingMaskBreath
-    tankstorage: OxygenTankFilled
+    suitstorage: OxygenTankFilled
 
 - type: job
   id: TestInternalsDummy

@@ -1,10 +1,4 @@
-# SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
-# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-#
-# SPDX-License-Identifier: MIT
-
-admin-ui-panic-bunker-window-title = Panic Bunker
+﻿admin-ui-panic-bunker-window-title = Panic Bunker
 
 admin-ui-panic-bunker-enabled = Panic Bunker Enabled
 admin-ui-panic-bunker-disabled = Panic Bunker Disabled

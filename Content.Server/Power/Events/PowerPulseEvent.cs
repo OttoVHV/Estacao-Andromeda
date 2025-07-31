@@ -1,10 +1,4 @@
-// SPDX-FileCopyrightText: 2022 Alex Evgrashin <aevgrashin@yandex.ru>
-// SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-namespace Content.Server.Power.Events;
+﻿namespace Content.Server.Power.Events;
 
 /// <summary>
 ///     Invoked on a target entity, when it was pulsed with an energy.

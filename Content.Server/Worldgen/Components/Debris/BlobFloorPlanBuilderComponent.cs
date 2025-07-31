@@ -1,10 +1,4 @@
-// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Moony <moony@hellomouse.net>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using Content.Server.Worldgen.Systems.Debris;
+﻿using Content.Server.Worldgen.Systems.Debris;
 using Content.Shared.Maps;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 

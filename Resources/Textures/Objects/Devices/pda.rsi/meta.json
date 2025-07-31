@@ -236,9 +236,6 @@
       "name": "pda-seniorofficer"
     },
     {
-      "name": "pda-seniordetective"
-    },
-    {
       "name": "equipped-IDCARD",
       "directions": 4
     }

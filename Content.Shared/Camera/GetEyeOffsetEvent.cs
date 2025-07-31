@@ -1,11 +1,3 @@
-// SPDX-FileCopyrightText: 2024 DrSmugleaf <10968691+DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 QueerCats <jansencheng3@gmail.com>
-// SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
-// SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Numerics;
 using Content.Shared.Inventory;
 using Content.Shared.Movement.Systems;
@@ -29,12 +21,12 @@ public record struct GetEyeOffsetEvent(Vector2 Offset);
 
 /// <summary>
 ///     Raised on any equipped and in-hand items that may modify the eye offset.
-///     Pockets, tankstorage, and backstorage are excluded.
+///     Pockets and suitstorage are excluded.
 /// </summary>
 [ByRefEvent]
 public sealed class GetEyeOffsetRelayedEvent : EntityEventArgs, IInventoryRelayEvent
 {
-    public SlotFlags TargetSlots { get; } = ~(SlotFlags.POCKET & SlotFlags.TANKSTORAGE & SlotFlags.BACKSTORAGE);
+    public SlotFlags TargetSlots { get; } = ~(SlotFlags.POCKET & SlotFlags.SUITSTORAGE);
 
     public Vector2 Offset;
 }

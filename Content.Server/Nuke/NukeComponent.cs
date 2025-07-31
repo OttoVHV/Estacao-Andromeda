@@ -1,33 +1,3 @@
-// SPDX-FileCopyrightText: 2021 Alexander Evgrashin <evgrashin.adl@gmail.com>
-// SPDX-FileCopyrightText: 2022 Alex Evgrashin <aevgrashin@yandex.ru>
-// SPDX-FileCopyrightText: 2022 Flipp Syder <76629141+vulppine@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Kara <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2022 Moony <moonheart08@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-// SPDX-FileCopyrightText: 2022 T-Stalker <43253663+DogZeroX@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 ike709 <ike709@github.com>
-// SPDX-FileCopyrightText: 2022 ike709 <ike709@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 DrSmugleaf <drsmugleaf@gmail.com>
-// SPDX-FileCopyrightText: 2023 Emisse <99158783+Emisse@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Jezithyr <jezithyr@gmail.com>
-// SPDX-FileCopyrightText: 2023 Pieter-Jan Briers <pieterjan.briers@gmail.com>
-// SPDX-FileCopyrightText: 2023 Vordenburg <114301317+Vordenburg@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 keronshb <54602815+keronshb@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 pofitlo <107665898+pofitlo@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
-// SPDX-FileCopyrightText: 2024 BeeRobynn <robynthewarcrime@proton.me>
-// SPDX-FileCopyrightText: 2025 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
-// SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
 using System.Threading;
 using Content.Server.Explosion.EntitySystems;
 using Content.Shared.Containers.ItemSlots;
@@ -51,7 +21,8 @@ namespace Content.Server.Nuke
         /// <summary>
         ///     Default bomb timer value in seconds.
         /// </summary>
-        [DataField]
+        [DataField("timer")]
+        [ViewVariables(VVAccess.ReadWrite)]
         public int Timer = 300;
 
         /// <summary>
@@ -65,7 +36,7 @@ namespace Content.Server.Nuke
         ///     How long until the bomb can arm again after deactivation.
         ///     Used to prevent announcements spam.
         /// </summary>
-        [DataField]
+        [DataField("cooldown")]
         public int Cooldown = 30;
 
         /// <summary>
@@ -172,32 +143,32 @@ namespace Content.Server.Nuke
         /// </summary>
         public (MapId, EntityUid?)? OriginMapGrid;
 
-        [DataField] public int CodeLength = 6;
-        [DataField] public string Code = string.Empty;
+        [DataField("codeLength")] public int CodeLength = 6;
+        [ViewVariables] public string Code = string.Empty;
 
         /// <summary>
         ///     Time until explosion in seconds.
         /// </summary>
-        [DataField]
+        [ViewVariables(VVAccess.ReadWrite)]
         public float RemainingTime;
 
         /// <summary>
         ///     Time until bomb cooldown will expire in seconds.
         /// </summary>
-        [DataField]
+        [ViewVariables]
         public float CooldownTime;
 
         /// <summary>
         ///     Current nuclear code buffer. Entered manually by players.
         ///     If valid it will allow arm/disarm bomb.
         /// </summary>
-        [DataField]
+        [ViewVariables]
         public string EnteredCode = "";
 
         /// <summary>
         ///     Current status of a nuclear bomb.
         /// </summary>
-        [DataField]
+        [ViewVariables]
         public NukeStatus Status = NukeStatus.AWAIT_DISK;
 
         /// <summary>

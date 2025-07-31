@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using Content.Shared.Administration;
+﻿using Content.Shared.Administration;
 using Robust.Shared.Reflection;
 
 namespace Content.Shared.CCVar.CVarAccess;

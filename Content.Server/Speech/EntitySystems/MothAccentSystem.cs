@@ -1,11 +1,4 @@
-// SPDX-FileCopyrightText: 2023 lzk <124214523+lzk228@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 router <messagebus@vk.com>
-// SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using Content.Server.Speech.Components;
 
 namespace Content.Server.Speech.EntitySystems;

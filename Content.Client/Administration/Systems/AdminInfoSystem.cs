@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Conchelle <mary@thughunt.ing>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using System.Linq;
+﻿using System.Linq;
 using Content.Shared.Administration.Events;
 using Robust.Client.Player;
 using Robust.Shared.ContentPack;

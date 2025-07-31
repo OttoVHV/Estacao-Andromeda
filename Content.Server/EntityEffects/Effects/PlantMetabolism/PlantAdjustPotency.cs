@@ -1,10 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
-// SPDX-FileCopyrightText: 2024 Eris <eris@erisws.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using Content.Server.Botany.Systems;
+﻿using Content.Server.Botany.Systems;
 using Content.Shared.EntityEffects;
 
 namespace Content.Server.EntityEffects.Effects.PlantMetabolism;

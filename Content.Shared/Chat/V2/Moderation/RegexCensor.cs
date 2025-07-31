@@ -1,9 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
-//
-// SPDX-License-Identifier: MIT
-
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace Content.Shared.Chat.V2.Moderation;
 
