@@ -38,9 +38,9 @@ public enum SlotFlags
     FEET = 1 << 14,
     BACKSTORAGE = 1 << 15,
     TANKSTORAGE = 1 << 16,
-    UNDERPANTS = 1 << 16,
-    UNDERSHIRT = 1 << 17,
-    SOCKS = 1 << 18,
+    UNDERPANTS = 1 << 17,
+    UNDERSHIRT = 1 << 18,
+    SOCKS = 1 << 19,
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET
