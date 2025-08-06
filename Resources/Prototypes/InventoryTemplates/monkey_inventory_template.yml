@@ -134,7 +134,6 @@
       dependsOnComponents:
       - type: AllowTankStorage
       displayName: Tank Storage
-
     - name: underpants
       slotTexture: underpants
       slotFlags: UNDERPANTS

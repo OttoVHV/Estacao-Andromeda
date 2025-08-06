@@ -218,6 +218,9 @@ namespace Content.Shared.Localizations
             if (transformValue != null)
                 pressure = transformValue(pressure);
 
+            if (transformValue != null)
+                pressure = transformValue(pressure);
+
             var places = 0;
             while (pressure > 1000 && places < maxPlaces)
             {

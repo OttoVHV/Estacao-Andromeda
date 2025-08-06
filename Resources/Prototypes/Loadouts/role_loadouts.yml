@@ -528,24 +528,24 @@
 - type: roleLoadout
   id: JobDetective
   groups:
-    - DetectiveHead
-    - DetectiveNeck
-    - SecurityGlasses #Funky
-    - DetectiveJumpsuit
-    - SecurityBackpack
-    - DetectiveOuterClothing
-    - SecurityShoes
-    - DetectivePDA # funkystation
-    - SurvivalSecurity
-    - SecurityArmas # Andromeda
-    - SecurityAllAmmo # Andromeda
-    - Trinkets
-    - SecurityStar
-    - ApoiadoresGroup # Andromeda
-    - GroupSpeciesBreathToolSecurity
-    - ShocksGroup
-    - UnderPantsGroup
-    - UnderShirtGroup
+  - DetectiveHead
+  - DetectiveNeck
+  - SecurityGlasses #Funky
+  - DetectiveJumpsuit
+  - SecurityBackpack
+  - DetectiveOuterClothing
+  - SecurityShoes
+  - DetectivePDA # funkystation
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+  - SecurityArmas # Andromeda
+  - SecurityAllAmmo # Andromeda
+  - ApoiadoresGroup # Andromeda
+  - ShocksGroup
+  - UnderPantsGroup
+  - UnderShirtGroup
 
 - type: roleLoadout
   id: JobSecurityCadet
