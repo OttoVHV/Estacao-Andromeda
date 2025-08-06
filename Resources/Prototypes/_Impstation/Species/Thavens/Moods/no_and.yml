@@ -340,20 +340,6 @@
   moodName: thaven-mood-fairy-rings-name
   moodDesc: thaven-mood-fairy-rings-desc
 
-# Iron, steel, and silver are deathly poisonous to you. Touching them directly will cause you extreme physical pain.
-- type: thavenMood
-  id: Fairy
-  moodName: thaven-mood-fairy-name
-  moodDesc: thaven-mood-fairy-desc
-  conflicts:
-  - Barefoot
-
-# Unbroken circles are impenetrable barriers.
-- type: thavenMood
-  id: FairyRings
-  moodName: thaven-mood-fairy-rings-name
-  moodDesc: thaven-mood-fairy-rings-desc
-
 # Darkness is incredibly dangerous, and you won't enter a space without proper illumination.
 - type: thavenMood
   id: AfraidDark

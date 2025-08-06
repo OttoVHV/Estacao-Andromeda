@@ -109,7 +109,7 @@
     - type: GuideHelp
       guides:
       - MixingAndFiltering
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap
 
 - type: entity
   parent: GasFilter
@@ -209,7 +209,7 @@
     - type: GuideHelp
       guides:
       - MixingAndFiltering
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap
 
 - type: entity
   parent: GasMixer
@@ -318,8 +318,4 @@
       - PneumaticValve
       - Pumps
       - Valves
-<<<<<<< HEAD
-    - type: StationAiWhitelist
-=======
     - type: DeviceRestrictOverlap # Funky
->>>>>>> 3691588c2f9cb158b3b93db18570127f90d82673
