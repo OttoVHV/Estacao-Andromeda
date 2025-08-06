@@ -26,6 +26,7 @@
 # SPDX-FileCopyrightText: 2025 ashley <vectorassembly@icloud.com>
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -110,12 +111,20 @@
   background: /Textures/LobbyScreens/typicalDay.webp
 
 - type: lobbyBackground
-  id: lowpopCrew
-  background: /Textures/LobbyScreens/lowpopCrew.webp
+  id: funkysci
+  background: /Textures/LobbyScreens/funkysci.webp
 
 - type: lobbyBackground
   id: rats
   background: /Textures/LobbyScreens/rats.webp
+
+- type: lobbyBackground
+  id: cirnoStation
+  background: /Textures/LobbyScreens/cirnostation.webp
+
+- type: lobbyBackground
+  id: usualsuspects
+  background: /Textures/LobbyScreens/usualsuspects.webp
 
 # Andromeda
 
@@ -142,14 +151,6 @@
 - type: lobbyBackground
   id: EmmavsWell2
   background: /Textures/LobbyScreens/Emma_vs_Well2.webp
-
-- type: lobbyBackground
-  id: SindicateCouncil
-  background: /Textures/LobbyScreens/Sindicate_Council_By_Wells.webp
-
-- type: lobbyBackground
-  id: TheOnlyThingIFear
-  background: /Textures/LobbyScreens/The_Only_Thing_I_Fear.webp
 
 - type: lobbyBackground
   id: WellsBrothers

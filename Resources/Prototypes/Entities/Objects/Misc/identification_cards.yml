@@ -245,9 +245,15 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
+<<<<<<< HEAD
     - sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
       offset: "-0.125, 0.09375"
       state: idwarden
+=======
+    - sprite: Interface/Misc/job_icons.rsi #icon
+      offset: "-0.125, 0.09375"
+      state: Warden
+>>>>>>> 3691588c2f9cb158b3b93db18570127f90d82673
   - type: PresetIdCard
     job: Warden
 

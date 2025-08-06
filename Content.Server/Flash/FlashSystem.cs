@@ -190,6 +190,12 @@ namespace Content.Server.Flash
             var multiplier = multiplierEv.Multiplier;
             // Goobstation end
 
+            // Goobstation start
+            var multiplierEv = new FlashDurationMultiplierEvent();
+            RaiseLocalEvent(target, multiplierEv);
+            var multiplier = multiplierEv.Multiplier;
+            // Goobstation end
+
             // don't paralyze, slowdown or convert to rev if the target is immune to flashes
             if (!_statusEffectsSystem.TryAddStatusEffect<FlashedComponent>(target, FlashedKey, TimeSpan.FromSeconds(flashDuration * multiplier / 1000f), true)) // Goob edit
                 return;

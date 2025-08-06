@@ -120,7 +120,7 @@
   - type: GuideHelp
     guides:
     - Pumps
-  - type: StationAiWhitelist
+  - type: DeviceRestrictOverlap # Funky
 
 - type: entity
   parent: GasBinaryBase
@@ -186,7 +186,7 @@
     - type: GuideHelp
       guides:
       - Pumps
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap # Funky
 
 - type: entity
   parent: GasBinaryBase
@@ -224,7 +224,7 @@
     - type: GuideHelp
       guides:
       - PassiveGate
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap # Funky
 
 - type: entity
   parent: GasBinaryBase
@@ -281,7 +281,7 @@
     - type: GuideHelp
       guides:
       - ManualValve
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap # Funky
 
 - type: entity
   parent: GasBinaryBase
@@ -349,7 +349,8 @@
   - type: GuideHelp
     guides:
     - SignalValve
-  
+  - type: DeviceRestrictOverlap # Funky
+
 - type: entity
   parent: GasBinaryBase
   id: GasPort
@@ -386,7 +387,7 @@
     - type: GuideHelp
       guides:
       - GasCanisters
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap # Funky
 
 - type: entity
   parent: GasVentPump
@@ -519,7 +520,7 @@
     navMapBlip: GasValve
 
 - type: entity
-  parent: GasBinaryBase
+  parent: GasPipeNoOverlap # Funky
   id: HeatExchanger
   name: radiator
   description: Transfers heat between the pipe and its surroundings.
@@ -538,6 +539,8 @@
     - state: heStraight
       map: [ "enum.SubfloorLayers.FirstLayer" ]
   - type: SubFloorHide
+    blockInteractions: false
+    blockAmbience: false
     visibleLayers:
     - enum.SubfloorLayers.FirstLayer
   - type: Appearance
@@ -562,6 +565,7 @@
   - type: GuideHelp
     guides:
     - Radiators
+  - type: PipeRestrictOverlap # Funky
 
 - type: entity
   parent: HeatExchanger
@@ -591,6 +595,7 @@
     - type: Construction
       graph: GasBinary
       node: bendradiator
+    - type: PipeRestrictOverlap # Funky
 
 # Funkystation - heat pump
 - type: entity
@@ -647,4 +652,4 @@
     - type: GuideHelp
       guides:
       - ManualValve
-    - type: StationAiWhitelist
+    - type: DeviceRestrictOverlap # Funky

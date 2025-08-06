@@ -172,7 +172,7 @@
       strippingWindowPos: 1, 5
       dependsOn: outerClothing
       dependsOnComponents:
-        - type: AllowTankStorage
+      - type: AllowTankStorage
       displayName: Tank Storage
     - name: underpants
       slotTexture: underpants
