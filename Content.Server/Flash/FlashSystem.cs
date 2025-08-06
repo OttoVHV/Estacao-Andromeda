@@ -183,13 +183,7 @@ namespace Content.Server.Flash
 
                 if (attempt.Cancelled)
                     return;
-
-            // Goobstation start
-            var multiplierEv = new FlashDurationMultiplierEvent();
-            RaiseLocalEvent(target, multiplierEv);
-            var multiplier = multiplierEv.Multiplier;
-            // Goobstation end
-
+                    
             // Goobstation start
             var multiplierEv = new FlashDurationMultiplierEvent();
             RaiseLocalEvent(target, multiplierEv);
