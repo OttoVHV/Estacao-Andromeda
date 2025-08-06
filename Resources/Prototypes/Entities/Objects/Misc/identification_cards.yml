@@ -176,7 +176,7 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: SecurityCadet
 
@@ -230,7 +230,7 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: SecurityOfficer
   - type: PresetIdCard
@@ -242,10 +242,11 @@
   name: warden ID card
   components:
   - type: Sprite
+    sprite: _DV/Objects/Misc/id_cards.rsi # DeltaV - resprite security IDs
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: Warden
   - type: PresetIdCard
@@ -662,7 +663,7 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: Brigmedic
 
@@ -1020,7 +1021,7 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: Detective
   - type: PresetIdCard
@@ -1152,7 +1153,7 @@
     layers:
     - state: default #base
     - state: decal-stripe-security #decal
-    - sprite: Interface/Misc/job_icons.rsi #icon
+    - sprite: _DV/Interface/Misc/job_icons.rsi #icon
       offset: "-0.125, 0.09375"
       state: SeniorOfficer
 

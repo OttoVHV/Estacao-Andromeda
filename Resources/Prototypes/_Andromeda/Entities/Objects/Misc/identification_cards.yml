@@ -5,7 +5,12 @@
   components:
   - type: Sprite
     layers:
-    - state: vip
+    - state: gold #base
+    - state: decal-stripe-wizard #decal
+    - state: decal-discriminator-cc #decal
+    - sprite: _Andromeda/Interface/Misc/job_icons.rsi #icon
+      offset: "-0.125, 0.09375"
+      state: visitorvip
   - type: Item
     heldPrefix: blue
   - type: PresetIdCard
