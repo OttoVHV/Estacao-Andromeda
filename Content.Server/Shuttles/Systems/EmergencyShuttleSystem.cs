@@ -288,6 +288,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
 
             _deviceNetworkSystem.QueuePacket(shuttle, null, payload, net.TransmitFrequency);
         }
+        _audio.PlayGlobal("/Audio/_Andromeda/Announcements/shuttle_centcom.ogg", Filter.Broadcast(), true);
     }
 
     /// <summary>
@@ -427,7 +428,7 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
 
         var audioFile = result.ResultType == ShuttleDockResultType.NoDock
             ? "/Audio/Misc/notice1.ogg"
-            : "/Audio/Announcements/shuttle_dock.ogg";
+            : "/Audio/_Andromeda/Announcements/shuttle_arrive.ogg";
 
         // TODO: Need filter extensions or something don't blame me.
         _audio.PlayGlobal(audioFile, Filter.Broadcast(), true);
