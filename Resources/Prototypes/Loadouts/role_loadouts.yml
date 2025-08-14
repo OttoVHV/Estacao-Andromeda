@@ -413,6 +413,7 @@
     - ResearchDirectorOuterClothing
     - ScientistGloves
     - ResearchDirectorShoes
+    - SciItensLoadout # Andromeda
     - Glasses
     - Survival
     - Trinkets
@@ -433,6 +434,7 @@
     - ScientistGloves
     - ScientistShoes
     - ScientistPDA
+    - SciItensLoadout # Andromeda
     - Glasses
     - Survival
     - Trinkets
@@ -574,6 +576,7 @@
     - ChiefMedicalOfficerOuterClothing
     - ChiefMedicalOfficerNeck
     - ChiefMedicalOfficerShoes
+    - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
     - Trinkets
@@ -594,6 +597,7 @@
     - MedicalBackpack
     - MedicalDoctorOuterClothing
     - MedicalShoes
+    - MedicalItensLoadout # Andromeda
     - MedicalDoctorPDA
     - Glasses
     - SurvivalMedical
@@ -647,6 +651,7 @@
     - MedicalBackpack
     - ParamedicOuterClothing
     - ParamedicShoes
+    - MedicalItensLoadout # Andromeda
     - Glasses
     - SurvivalMedical
     - Trinkets

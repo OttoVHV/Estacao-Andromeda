@@ -1,0 +1,14 @@
+- type: entity
+  id: SyringeCaseFilled ## Original
+  parent: SyringeCase
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: SyringeInaprovaline
+    - id: Syringe
+    - id: TraunexamicAcidChemistryBottle
+    - id: ChemistryEmptyBottle01
+    - id: EpinephrineChemistryBottle
+    - id: EmergencyMedipen
+    - id: SpaceMedipen
