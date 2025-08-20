@@ -154,8 +154,8 @@ public sealed partial class CCVars : CVars
         CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
 
     #region GhostRespawn
-    public static readonly CVarDef<double> GhostRespawnTime =
-        CVarDef.Create("ghost.respawn_time", 15d, CVar.SERVERONLY);
+    public static readonly CVarDef<float> GhostRespawnTime =
+        CVarDef.Create("ghost.respawn_time", 15f, CVar.SERVERONLY);
     public static readonly CVarDef<int> GhostRespawnMaxPlayers =
         CVarDef.Create("ghost.respawn_max_players", 40, CVar.SERVERONLY);
     public static readonly CVarDef<bool> GhostAllowSameCharacter =
