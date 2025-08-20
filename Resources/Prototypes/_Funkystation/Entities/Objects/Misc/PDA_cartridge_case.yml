@@ -1,4 +1,3 @@
-# SPDX-FileCopyrightText: 2025 DevilishMilk <michaellapjr@gmail.com>
 # SPDX-FileCopyrightText: 2025 IronDragoon <8961391+IronDragoon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 IronDragoon <you@example.com>
 # SPDX-FileCopyrightText: 2025 mkanke-real <mikekanke@gmail.com>
@@ -25,14 +24,14 @@
     size: Normal
   - type: Storage
     grid:
-    - 0,0,5,1
+    - 0,0,6,1
     whitelist:
       tags:
       - PDACart
   - type: StorageFill
     contents:
     - id: AstroNavCartridge
-    #- id: MedTekCartridge #funky - medtek removal
+    - id: MedTekCartridge
     - id: WantedListCartridge
     - id: LogProbeCartridge
     - id: NetProbeCartridge
