@@ -523,9 +523,15 @@ namespace Content.Server.GameTicking
                 $"{player.Name} late joined the round as an Observer with {ToPrettyString(ghost):entity}.");
         }
 
-        private bool CheckGhostReturnToRound(ICommonSession player, HumanoidCharacterProfile character, out bool checkAvoid)
+        private bool CheckGhostReturnToRound(ICommonSession player, HumanoidCharacterProfile? character, out bool checkAvoid)
         {
             checkAvoid = false;
+
+            if (character == null)
+            {
+                // Lógica para lidar com o caso em que character é nulo
+                return false;
+            }
 
             var allPlayerMinds = EntityQuery<MindComponent>()
                 .Where(mind => mind.OriginalOwnerUserId == player.UserId);

@@ -32,7 +32,7 @@ ghost-roles-window-rules-footer = A opção estará disponível em {$time} segun
 
 ghost-return-to-body-title = Retorne ao corpo
 ghost-return-to-body-text = Você está sendo revivido! Retornar ao seu corpo?
-ghost-gui-return-to-round-button = Retornar à rodada
+ghost-gui-return-to-round-button = Respaw
 
 ghost-gui-toggle-ghost-visibility-button = Alternar Fantasmas
 ghost-gui-toggle-ghost-visibility-name = Alternar Fantasmas
