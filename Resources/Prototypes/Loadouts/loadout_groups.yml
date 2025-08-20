@@ -117,6 +117,7 @@
   - Glasses
   - GlassesJamjar
   - GlassesJensen
+  - BlindfoldFake # Andromeda
 
 - type: loadoutGroup
   id: GroupTankHarness

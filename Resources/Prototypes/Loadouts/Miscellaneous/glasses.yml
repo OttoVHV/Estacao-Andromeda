@@ -26,6 +26,15 @@
       department: Cargo
       time: 36000 #10 hours of being a space trucker
 
+- type: loadoutEffectGroup
+  id: BlindfoldTimer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBotanist
+      time: 36000 #10 hours of being a space trucker
+       
 # Basic options
 # Glasses
 - type: loadout
@@ -51,3 +60,12 @@
     proto: JensenTimer
   equipment:
     eyes: ClothingEyesGlassesJensen
+
+# Andromeda
+- type: loadout
+  id: BlindfoldFake
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: BlindfoldTimer
+  equipment:
+    eyes: ClothingEyesBlindfoldFake
