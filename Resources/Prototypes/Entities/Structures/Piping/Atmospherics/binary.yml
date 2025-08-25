@@ -131,6 +131,7 @@
   - type: GuideHelp
     guides:
     - Pumps
+  - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -201,6 +202,7 @@
     - type: GuideHelp
       guides:
       - Pumps
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -243,6 +245,7 @@
     - type: GuideHelp
       guides:
       - PassiveGate
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -304,6 +307,7 @@
     - type: GuideHelp
       guides:
       - ManualValve
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -376,6 +380,7 @@
   - type: GuideHelp
     guides:
     - SignalValve
+  - type: StationAiWhitelist
 
 - type: entity
   parent: GasBinaryBase
@@ -423,6 +428,7 @@
       guides:
       - GasCanisters
     - type: DeviceRestrictOverlap # Funky
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasVentPump
@@ -721,3 +727,4 @@
         Primary: HeatPump
         Secondary: HeatPumpAlt1
         Tertiary: HeatPumpAlt2
+    - type: StationAiWhitelist

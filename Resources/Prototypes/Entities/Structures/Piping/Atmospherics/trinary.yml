@@ -85,6 +85,7 @@
       guides:
       - MixingAndFiltering
     - type: DeviceRestrictOverlap
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasFilter
@@ -194,6 +195,7 @@
       guides:
       - MixingAndFiltering
     - type: DeviceRestrictOverlap
+    - type: StationAiWhitelist
 
 - type: entity
   parent: GasMixer
@@ -313,3 +315,4 @@
         Secondary: PressureControlledValveAlt1
         Tertiary: PressureControlledValveAlt2
     - type: DeviceRestrictOverlap # Funky
+    - type: StationAiWhitelist
