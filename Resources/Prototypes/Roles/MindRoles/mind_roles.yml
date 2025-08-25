@@ -174,7 +174,7 @@
   components:
   - type: MindRole
     antagPrototype: ParadoxClone
-    roleType: SoloAntagonist
+    roleType: FreeAgent # Andromeda 
   - type: ParadoxCloneRole
 
 # Nukies

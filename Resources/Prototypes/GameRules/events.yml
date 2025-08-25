@@ -350,7 +350,7 @@
       - ParadoxCloneObjectiveBlacklist
   - type: AntagObjectives
     objectives:
-    - ParadoxCloneKillObjective
+    #- ParadoxCloneKillObjective # Andromeda
     - ParadoxCloneLivingObjective
   - type: AntagRandomSpawn # TODO: improve spawning so they only start in maints
   - type: AntagSelection
