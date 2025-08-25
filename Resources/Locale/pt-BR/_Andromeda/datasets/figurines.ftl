@@ -117,3 +117,12 @@ figurines-lunara-4 = "EU TE AMO YVOO!!"
 figurines-lunara-5 = "Yvo, eu te amo!!"
 figurines-lunara-6 = "awa"
 figurines-lunara-7 = "Todo livro que você lê é um remix do dicionário."
+
+figurines-wells-0 = Arrrrg
+figurines-wells-1 = Yaarrr!
+figurines-wells-2 = Bobão!
+figurines-wells-3 = Wop wop!
+figurines-wells-4 = Eu quero minha mãe!
+figurines-wells-5 = PELA REVOLUÇÃO!!!
+figurines-wells-6 = P- rQ'e o rum S'mPrê ac'ba?
+figurines-wells-7 = WOOOOOOOOOOOOOOOO!

@@ -42,6 +42,8 @@
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: wells_figure
+  - type: SpeakOnTrigger
+    pack: FigurinesWells
 
 - type: entity
   parent: ToyFigurineExemploCatarse
