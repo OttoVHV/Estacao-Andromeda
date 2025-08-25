@@ -111,7 +111,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage
+      - backstorage
 # End of Harmony Change
     - type: StaticPrice
       price: 90
@@ -147,7 +147,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-laser-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage
+      - backstorage
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -178,7 +178,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-bullet-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage 
+      - backstorage 
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -211,7 +211,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/buckler.rsi
       quickEquip: false
       slots:
-      - suitStorage
+      - backstorage
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -277,7 +277,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage 
+      - backstorage 
   # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
