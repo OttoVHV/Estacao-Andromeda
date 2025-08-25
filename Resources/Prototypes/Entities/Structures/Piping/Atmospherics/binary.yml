@@ -380,8 +380,7 @@
   - type: GuideHelp
     guides:
     - SignalValve
-  - type: StationAiWhitelist
-
+    
 - type: entity
   parent: GasBinaryBase
   id: GasPort
