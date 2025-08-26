@@ -75,6 +75,8 @@
     id: BlueshieldOfficerPDA
     ears: ClothingHeadsetAltCentCom
     pocket1: UniqueBlueshieldOfficerLockerTeleporter
+  inhand:
+  - BlueShieldShieldFilled
   storage:
     back:
     - Flash
