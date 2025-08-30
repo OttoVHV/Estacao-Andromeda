@@ -28,3 +28,4 @@
     sprite: _EE/Clothing/GloveJackets/surgical_jacket.rsi
   - type: FingerprintMask
   - type: GloveJacket
+  - type: SurgeryDirtiness # DeltaV - gloves that are likely to be used for surgery should have their bar visible from the getgo
