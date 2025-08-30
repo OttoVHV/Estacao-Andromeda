@@ -11,6 +11,7 @@
   id: SOP101
   name: SOP 101
   text: "/ServerInfo/Funkystation/Guidebook/SOP/SOP101.xml"
+  priority: 999
   children:
   - CommandSOP
   - SecuritySOP
@@ -83,7 +84,7 @@
 - type: guideEntry
   id: GreenAlertSOP
   name: guide-entry-alertlevel-green
-  priority: 10
+  priority: 90
   text: "/ServerInfo/Funkystation/Guidebook/AlertLevel/GreenAlert.xml"
 
 - type: guideEntry

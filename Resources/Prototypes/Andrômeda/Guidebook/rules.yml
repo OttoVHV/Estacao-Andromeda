@@ -2,7 +2,7 @@
   id: DefaultRuleset
   name: guide-entry-deltav-Rules
   text: "/ServerInfo/Guidebook/Andromeda/Rules/DeltaVRuleset.xml"
-  priority: 1
+  priority: 0
   ruleEntry: false
   children:
     - RuleC0

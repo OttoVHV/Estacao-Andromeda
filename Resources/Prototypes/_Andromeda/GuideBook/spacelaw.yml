@@ -5,20 +5,20 @@
   id: SpaceLaw Initial
   name: guide-entry-spacelaw-folder
   text: "/ServerInfo/Guidebook/SpaceLaw/SpaceLaw_Initial.xml"
-  priority: 0 # Added to make it anchor above others
+  priority: 1 # Added to make it anchor above others
   children:
-  - SpaceLaw Contraband
-  - SpaceLaw Trials
-  - SpaceLaw Procedures
-  - SpaceLaw CourtRulings
   - SpaceLaw CrimeChart
+  - SpaceLaw Procedures
+  - SpaceLaw Trials
+  - SpaceLaw CourtRulings
+  - SpaceLaw Contraband
 
 # Subdirectories
 - type: guideEntry
   id: SpaceLaw Contraband
   name: guide-entry-spacelaw-contraband
   text: "/ServerInfo/Guidebook/SpaceLaw/Contraband/SpaceLaw_Contraband.xml"
-  priority: 4
+  priority: 40
   children:
   - Substances SpaceLaw
   - Gear SpaceLaw
@@ -28,7 +28,7 @@
   id: SpaceLaw Trials
   name: guide-entry-spacelaw-trials
   text: "/ServerInfo/Guidebook/SpaceLaw/Trials/SpaceLaw_Trials.xml"
-  priority: 3
+  priority: 30
   children:
   - EscalationPolicy SpaceLaw
   - TrialPolicy SpaceLaw
@@ -38,7 +38,7 @@
   id: SpaceLaw Procedures
   name: guide-entry-spacelaw-procedures
   text: "/ServerInfo/Guidebook/SpaceLaw/Procedures/SpaceLaw_Procedures.xml"
-  priority: 2
+  priority: 20
   children:
   - Sentencing SpaceLaw
   - Treatment SpaceLaw
@@ -47,24 +47,24 @@
   - Searching SpaceLaw
 
 - type: guideEntry
+  id: SpaceLaw CrimeChart
+  name: guide-entry-spacelaw-crimechart
+  text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/SpaceLaw_CrimeChart.xml"
+  priority: 10
+  children:
+  - SpaceLaw Modifiers
+  - SpaceLaw Categories
+
+- type: guideEntry
   id: SpaceLaw CourtRulings
   name: guide-entry-spacelaw-courtrulings
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SpaceLaw_CourtRulings.xml"
-  priority: 1
+  priority: 15
   children:
   - IPC CourtRulings
   - Cultist CourtRulings
   - Sacrifice CourtRulings
-  - Carpa courtrulings
-
-- type: guideEntry
-  id: SpaceLaw CrimeChart
-  name: guide-entry-spacelaw-crimechart
-  text: "/ServerInfo/Guidebook/SpaceLaw/CrimeList/SpaceLaw_CrimeChart.xml"
-  priority: 0
-  children:
-  - SpaceLaw Modifiers
-  - SpaceLaw Categories
+#  - Carpa courtrulings # Desabilitado porque não tem mais carpa ;-;
 
 - type: guideEntry
   id: SpaceLaw Categories
