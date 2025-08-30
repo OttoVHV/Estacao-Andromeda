@@ -11,9 +11,8 @@
    maleFirstNames: names_oni_male
    femaleFirstNames: names_oni_female
    lastNames: names_oni_location
-   naming: LastNoFirst
 
-   
+
  - type: markingPoints
    id: MobOniMarkingLimits
    points:
@@ -24,19 +23,19 @@
       points: 1
       required: false
     HeadTop:
-      points: 6
+      points: 1
       required: true
       defaultMarkings: [ OniHornDoubleCurved ]
     HeadSide:
-      points: 6
-      required: true
+      points: 1
+      required: false
       defaultMarkings: [ PointyEarsUpwards ]
     Chest:
-      points: 6
+      points: 1
       required: false
     Legs:
-      points: 6 # Frontier 2<8
+      points: 6
       required: false
     Arms:
-      points: 6 # Frontier 2<8
+      points: 6
       required: false

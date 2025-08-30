@@ -6,6 +6,7 @@
   components:
   - type: HumanoidAppearance
     species: Daengati
+  - type: Carriable # Carrying system from nyanotrasen.
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/pierce.ogg
@@ -17,19 +18,19 @@
         Heat: 3
   - type: Body
     prototype: Human
-  - type: TypingIndicator
-    proto: oni
-  - type: Temperature
-    heatDamageThreshold: 535
-    coldDamageThreshold: 270
-    currentTemperature: 310.15
-    specificHeat: 42
-    coldDamage:
-      types:
-        Cold : 0.75 #o padrão é 0.1
-    heatDamage:
-      types:
-        Heat : 0.5 #O padrão é 1.5
+  #- type: TypingIndicator
+  #  proto: oni
+  #- type: Temperature
+  #  heatDamageThreshold: 535
+  #  coldDamageThreshold: 270
+  #  currentTemperature: 310.15
+  #  specificHeat: 42
+  #  coldDamage:
+  #    types:
+  #      Cold : 0.75 #o padrão é 0.1
+  #  heatDamage:
+  #    types:
+  #      Heat : 0.5 #O padrão é 1.5
   - type: Damageable
     damageModifierSet: Daengati
 
