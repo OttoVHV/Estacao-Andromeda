@@ -23,7 +23,7 @@
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ OniHornSingleCurved ]
+      defaultMarkings: [ OniHornPisces ]
     HeadSide:
       points: 1
       required: true
