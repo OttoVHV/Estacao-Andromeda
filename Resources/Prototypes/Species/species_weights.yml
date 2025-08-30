@@ -22,5 +22,8 @@
     Felinid: 4
     Harpy: 3
     Rodentia: 3
+    # End Goobstation
+    Tajaran: 3 # Einstein Engines - Tajaran, see Prototypes/_EE/Entities/Mobs/Species/tajaran.yml
+    Xelthia: 3 # Einstein Engines - Xelthia, see Prototypes/_EE/Entities/Mobs/Species/xelthia.yml
     # Nyanotrasen Oni
-    Oni: 6
+    Oni: 4
