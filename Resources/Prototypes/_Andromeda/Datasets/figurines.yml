@@ -39,3 +39,9 @@
   values:
     prefix: figurines-wells-
     count: 8
+
+- type: localizedDataset
+  id: FigurinesGertulio
+  values:
+    prefix: figurines-gertulio-
+    count: 36

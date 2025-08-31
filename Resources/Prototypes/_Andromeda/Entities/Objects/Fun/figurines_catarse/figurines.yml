@@ -124,3 +124,15 @@
     state: marcos_figure
   - type: SpeakOnTrigger
     pack: FigurinesMarcos
+
+- type: entity
+  parent: ToyFigurineExemploCatarse
+  id: ToyFigurineGertulio
+  name: Gertulio Quietude
+  description: "O salvatagem que você ama"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: Gertulio_figure
+  - type: SpeakOnTrigger
+    pack: FigurinesGertulio
