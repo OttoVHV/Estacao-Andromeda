@@ -65,18 +65,7 @@
   - type: Sprite
     sprite: _DV/Objects/Devices/securityhandy.rsi # DeltaV - resprite security radio
     layers:
-    - state: base
-    - state: cap-security
-    - state: active
-      visible: false
-      shader: unshaded
-      map: [ "enum.ToggleVisuals.Layer" ]
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleVisuals.Toggled:
-        enum.ToggleVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
+    - state: walkietalkie
   - type: Item
     sprite: _DV/Objects/Devices/securityhandy.rsi # DeltaV - resprite security radio
     heldPrefix: walkietalkie
