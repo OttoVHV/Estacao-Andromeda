@@ -22,6 +22,7 @@
 # SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 8tv <eightev@gmail.com>
 # SPDX-FileCopyrightText: 2025 Icepick <122653407+Icepicked@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 PoquitoDondito <danielchristianstone@gmail.com>
 # SPDX-FileCopyrightText: 2025 SaffronFennec <firefoxwolf2020@protonmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 Teasq <Xerithin@gmail.com>
@@ -595,6 +596,7 @@
     - MedicalDoctorJumpsuit
     - MedicalGloves
     - MedicalBackpack
+    - MedicalNeck
     - MedicalDoctorOuterClothing
     - MedicalShoes
     - MedicalItensLoadout # Andromeda
@@ -613,6 +615,7 @@
   groups:
     - MedicalInternJumpsuit
     - MedicalBackpack
+    - MedicalNeck
     - Glasses
     - SurvivalMedical
     - Trinkets
@@ -630,6 +633,7 @@
     - ChemistJumpsuit
     - MedicalGloves
     - ChemistBackpack
+    - MedicalNeck
     - ChemistOuterClothing
     - MedicalShoes
     - SurvivalMedical
@@ -649,6 +653,7 @@
     - ParamedicJumpsuit
     - MedicalGloves
     - MedicalBackpack
+    - MedicalNeck
     - ParamedicOuterClothing
     - ParamedicShoes
     - MedicalItensLoadout # Andromeda
@@ -695,6 +700,7 @@
   groups:
     - PsychologistJumpsuit
     - MedicalBackpack
+    - MedicalNeck
     - Glasses
     - Survival
     - Trinkets

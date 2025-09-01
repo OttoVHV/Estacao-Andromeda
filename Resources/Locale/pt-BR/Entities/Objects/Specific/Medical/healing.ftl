@@ -102,3 +102,6 @@ ent-PillCanisterDexalin = porta-comprimidos
 
 PillCanisterRandom = porta-comprimidos
     .desc = Comporta até 9 comprimidos.
+
+ent-Oilpack = bolsa de óleo
+    .desc = Equipado com um conector patenteado e descartável, o óleo pode ser facilmente injetado para completar um IPC com sangramento

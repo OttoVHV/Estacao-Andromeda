@@ -52,6 +52,13 @@
     back:
     - ToyFigurineLawLaw
 
+- type: loadout
+  id: FigureGertulio
+  storage:
+    back:
+    - ToyFigurineGertulio
+
+
 #- type: loadout
 #  id: FigureMarcos
 #    storage:
