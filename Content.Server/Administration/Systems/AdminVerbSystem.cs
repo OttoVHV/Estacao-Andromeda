@@ -241,10 +241,25 @@ namespace Content.Server.Administration.Systems
                                     return;
                                 }
 
-                // Begin DeltaV Additions - thaven moods
-                if (TryComp<ThavenMoodsComponent>(args.Target, out var moods))
-                {
-                    args.Verbs.Add(new Verb()
+                                var stationUid = _stations.GetOwningStation(args.Target);
+                                var profile = _humanoidAppearance.GetBaseProfile(args.Target);
+                                _spawning.SpawnPlayerMob(coords.Value, null, profile, stationUid);
+                            },
+                            ConfirmationPopup = true,
+                            Impact = LogImpact.High,
+                        });
+
+                        // PlayerPanel
+                        args.Verbs.Add(new Verb
+                        {
+                            Text = Loc.GetString("admin-player-actions-player-panel"),
+                            Category = VerbCategory.Admin,
+                            Act = () => _console.ExecuteCommand(player, $"playerpanel \"{targetActor.PlayerSession.UserId}\""),
+                            Impact = LogImpact.Low
+                        });
+                    }
+
+                    if (_mindSystem.TryGetMind(args.Target, out var mindId, out var mindComp) && mindComp.UserId != null)
                     {
                         // Erase
                         args.Verbs.Add(new Verb
@@ -368,7 +383,7 @@ namespace Content.Server.Administration.Systems
                         {
                             _console.ExecuteCommand(player, $"tpto {GetNetEntity(args.Target)}");
                         },
-                        Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/Interface/Actions/actions_borg.rsi"), "state-laws"),
+                        Impact = LogImpact.Low
                     });
 
                     // TeleportHere
