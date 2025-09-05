@@ -203,6 +203,10 @@
       collection: VulpkaninGekker
     Yap:
       collection: VulpkaninYap
+    Yip:
+      collection: VulpkaninYip
+    Whines:
+      collection: VulpkaninWhine
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -251,6 +255,10 @@
       collection: VulpkaninYap
     Gekker:
       collection: VulpkaninGekker
+    Yip:
+      collection: VulpkaninYip
+    Whines:
+      collection: VulpkaninWhine
 
 - type: emoteSounds
   id: MobDog

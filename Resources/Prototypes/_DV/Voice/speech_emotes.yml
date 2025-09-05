@@ -215,3 +215,47 @@
     - awoos
     - awooing
     - awooed
+
+- type: emote
+  id: Yip
+  name: chat-emote-name-yip
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    tags:
+    - VulpEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-yip"]
+  chatTriggers:
+  - yip
+  - yip.
+  - yip?
+  - yip!
+  - yips
+  - yips.
+  - yips?
+  - yips!
+
+- type: emote
+  id: Whines
+  name: chat-emote-name-whine
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+     tags:
+     - VulpEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-whine"]
+  chatTriggers:
+  - fwhine
+  - fwhine.
+  - fwhine?
+  - fwhine!
+  - fwhines
+  - fwhines.
+  - fwhines?
+  - fwhines!
