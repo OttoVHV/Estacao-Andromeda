@@ -8,17 +8,18 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Alert Levels and You!
+  # Códigos de Alerta pra Você!
 
-  [bold]What is an alert level?[/bold]
+  [bold]O que é um código de alerta?[/bold]
+  
 
-  Alert levels are a way to quickly alert crew of any possible threats that may be present on the station.
+  Códigos de alerta são uma maneira rapida de alertar a tripulação sobre uma possível ameaça presente dentro da estação.
 
-  Alert levels also determine which procedures to follow, including security. On certain alert levels, security may be granted more leniency to deal with threats and unruly crew.
+  Códigos de alerta também determinam qual tipo de procedimento seguir, incluindo os de segurança. Em certos códigos de alerta o departamento de segurança adquire mais clemência para lidar com ameaças e tripulantes desobedientes.
 
-  Failure to abide by the regulations put on by these alert levels may result in contract termination.
+  Falhar em seguir os regulamentos estabelecidos em qualquer um dos códigos de alerta pode resultar no cancelamento do seu contrato.
 
-  The following are all possible alert levels:
+  A seguir esses são todos os códigos de alerta possíveis:
 
   - [textlink="Green Alert" link="GreenAlertSOP"]
   - [textlink="Yellow Alert" link="YellowAlertSOP"]

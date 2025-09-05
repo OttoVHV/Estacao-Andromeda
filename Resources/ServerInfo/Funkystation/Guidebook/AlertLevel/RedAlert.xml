@@ -6,39 +6,39 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Station Alert - Red
+  # Código de Alerta - Vermelho
 
   <Box>
-    [italic]Called by: Anyone with Command-Level Access at a working Communications Console.[/italic]
+    [italic]Declarado por: Qualquer membro com acesso ao comando em um Console de Comunicações operacional.[/italic]
   </Box>
 
-  [bold]Conditions:[/bold]
+  [bold]Situaçõe:[/bold]
 
-  There is a confirmed, hostile threat on-board the station or nearby in space. This threat should pose recognizable danger to the station and/or crew at large.
+  O alerta vermelho é acionado quando existe uma ameaça confirmada dentro da estação ou no próprio espaço próximo a estação. Essa ameaça deve ser reconhecida como perigo a estação e/ou a tripulação como um todo.
 
-  [bold]Security:[/bold]
+  [bold]Seguranças:[/bold]
 
-  Security personnel should read Security SOP for armament, armory and safety procedures;
+  A equipe de segurança devem ler e seguir a POP de segurança para armamentos, arsenal e procedimentos de proteção;
 
-  Random searches are fully permitted and recommended. Security personnel may detain any personnel refusing a random search in order to conduct said search;
+  Revistar frequentemente os tripulantes é totalmente permitido e recomendado. A equipe de segurança deve deter qualquer tripulante que se recusar a ser checado durante a declaração de um revista;
 
-  Security personnel are to cooperate fully with any Central Command Staff (such as Emergency Response Teams) in order to eliminate the threat to the station.
+  A equipe de segurança deve cooperar totalmente com qualquer membro do Comando Central (como os ERT "(Time de Respostas Emergências)") em função de eliminar uma ameaça a estação.
 
-  [bold]Secure Areas:[/bold]
+  [bold]Áreas Restritas:[/bold]
 
-  EVA Storage, Tech Storage, Gravity Generator, Engineering Secure Storage, AI Upload, Vault, anywhere else requiring command level access that does not get regularly used.
+  O Armazém de EVA, Armazém de Tecnologia, Gerador de Gravidade, Armazém restrito de Engenharia, Upload da IA, Cofre, Portal(Gateway), e qualquer outro lugar que precise do acesso nível comando que não é frequentemente usado.
 
-  There are no restrictions on bolting Secure Areas. Secure Areas may be left bolted or unbolted at the discretion of Command personnel;
+  Não a nenhuma restrição em trancar Áreas Restritas. Áreas Restritas devem ser deixadas trancadas ou destrancadas a discernimento dos membros do Comando;
 
-  [bold]General Crew:[/bold]
+  [bold]Tripulantes no Geral:[/bold]
 
-  All personnel are required to maximize their Suit Sensors. Personnel in violation of this order may be charged with Endangerment;
+  É obrigatório que todos os tripulantes maximizem os sensores de suas roupas. Tripulantes que violarem essa ordem podem ser julgados pelo crime 107(criar um perigo);
 
-  Unless their job demands it, personnel are forbidden from entering maintenance tunnels. Personnel in violation of this order may be charged with Secure Trespassing;
+  A menos que o seu trabalho demande isso, tripulantes são proibidos de entrarem em tuneis de manutenção. Tripulantes que violarem essa ordem podem ser julgados pelo crime 308(Invasão de Segurança)
 
-  Visitors to the station (anyone with Civilian-level access) are to remain inside the Bar, Library or Dormitories for the duration of Code Red;
+  Visitantes da estação(qualquer um com acesso nível civil) devem permanecer dentro do Bar, Biblioteca ou nos Dormitórios durante o Código Vermelho;
 
-  Personnel are to follow the instructions of Security staff, so long as they are within the bounds of Space Law and are not acting against the general well-being of the station and its crew. Failure to do so may lead to their arrest for Creating a Workplace Hazard.
+  Tripulantes devem seguir instruções dadas pelo Departamento de Segurança, enquanto eles estiverem agindo de acordo com a Lei espacial e não estiverem agindo contra o bem estar da estação e sua tripulação. Falhar nesse aspecto levará a prisão dos envolvidos por criarem um ambiente de trabalho perigoso.
 
-  Crewmembers in maintenance without proper reason or authorization may be detained for Secure Trespassing.
+  Tripulantes em tuneis de manutenção sem uma razão adequada ou autorização serão detidos pelo crime 308(Invasão de Segurança).
 </Document>

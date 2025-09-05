@@ -8,28 +8,28 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Standard Operating Procedure
+  # Procedimento Operacional Padrão
 
   <Box>
-    [color=#999999][italic]"The station is currently under threat of imminent destruction. Crewmembers are advised to listen to heads of staff for more information."[/italic][/color]
+    [color=#999999][italic]"A estação está atualmente sob ameaça de destruição iminente. Recomenda-se que os tripulantes sigam as instruções dos Chefes de Departamento para mais informações."[/italic][/color]
   </Box>
 
-  Consider SOP your new space bible, feature complete with ways to lethal people legally.
+  Considere o POP sua nova bíblia espacial, agora com instruções completas de como usar força letal legalmente.
 
-  # What is Standard Operating Procedure? (SOP)
+  # O que é POP?
 
-  Standard Operating Procedure, from hereon out known as SOP, is how NanoTrasen is expected to run its facilities. This ensures proper treatment of prisoners, how to safely deal with certain situations, and how to identify positive threats on the station.
-  Deviating from SOP is a big and conscious decision, and any actions you may take while deviating from SOP may be grounds for discipline and/or termination of your contract.
+  O Procedimento Operacional Padrão, doravante conhecido como POP, define como a Nanotrasen deve operar suas instalações. Ele garante o tratamento adequado de prisioneiros, orienta sobre como lidar com determinadas situações de forma segura e como identificar ameaças reais na estação.
+  Desviar-se do POP é uma decisão importante e consciente, e quaisquer ações tomadas durante esse desvio podem ser motivo para medidas disciplinares e/ou rescisão do seu contrato.
 
-  [bold]Job SOP should not be a considered a checklist of conditions to fire someone over, and should not be rigidly followed to the letter in detriment of circumstances and context. As always, SOP can be malleable if the situation so requires, and the decision to punish a crewmember for breaching it ultimately falls onto the relevant Head of Staff, for Department Members, or Captain, for the Head of Staff.[/bold]
+  [bold]O POP de trabalho não deve ser considerado uma lista rígida de condições para demitir alguém, nem deve ser seguido à risca em detrimento das circunstâncias e do contexto. Como sempre, o POP pode ser flexível se a situação assim exigir, e a decisão de punir um tripulante por seu descumprimento cabe, em última instância, ao respectivo Chefe de Departamento, no caso dos membros do Departamento, ou ao Capitão, no caso dos Chefes de Departamento.[/bold]
 
-  # Isn't SOP just guidelines?
+  # POPs não são apenas diretrizes?
 
-  Yes they are, but following them ensures to establish proper trust with the public. Otherwise, you may be regarded as "Shitsec", or even worse, "Shitsci", so it's always wise to consult the appropriate SOP document for your department. If you need to break SOP, you better have a good reason to justify its breakage afterward.
+  Sim, são, mas segui-las garante o estabelecimento de uma confiança adequada com o público. Caso contrário, você pode ser considerado "Um segurança de bosta"(Shitsec) ou, pior ainda, "Cientista de merda"(Shitsci). Por isso, é sempre sábio consultar o documento de POP apropriado para o seu departamento. Se precisar quebrar o POP, é melhor ter uma boa razão para justificar essa quebra depois.
 
-  # Great, now where can I find the SOP for my department?
+  # Onde posso encontrar o POP do meu cargo?
 
-  You can find all department SOP documents here:
+  Você pode encontrar todos os POPs dos departamentos aqui:
 
   - [textlink="Alert Levels and You" link="AlertLevelsSOP"]
   - [textlink="Command SOP" link="CommandSOP"]
