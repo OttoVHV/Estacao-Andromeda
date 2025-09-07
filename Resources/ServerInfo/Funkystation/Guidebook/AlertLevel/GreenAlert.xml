@@ -5,41 +5,42 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-    # Station Alert - Green
+    # Código de Alerta - Verde
 
     <Box>
-        [italic]Called by: Anyone with Command-Level Access at a working Communications Console.[/italic]
+        [italic]Declarado por: Qualquer membro com acesso ao comando em um Console de Comunicações operacional.[/italic]
     </Box>
 
-    [bold]Conditions:[/bold]
+    [bold]Situações:[/bold]
 
-    Default Alert Code at the start of the shift. Do not change unless a threat is suspected/confirmed;
+    Esse é o Código de Alerta padrão do ínicio do turno. Ele não deve ser modificado a não ser que exista a suspeita/confirmação de uma ameaça;
+    
+    [bold]OU[/bold]
 
-    [bold]OR[/bold]
+    Assim que todas as ameaças suspeitas/confirmadas tenham sido resolvidas pela tripulação, ou simplesmente tenham sumido por si só. É recomendado que, depois de +15 minutos sobre Código Azul sem nenhuma atividade hostil, o Código Verde seja Declarado;    
 
-    All confirmed/suspected threats to the station and/or crew have been handled, or simply vanished on their own. It is recommended that, after 15+ minutes on Code Blue without any hostile activity, Code Green be called;
+    [bold]Segurança:[/bold]
 
-    [bold]Security:[/bold]
+    Todas as armas devem permanecer em seus coldres ou mantidas nos bolsos/compartimentos de colete, as armas não devem ser utilizidas a não ser que seja absolutamente necessário;
 
-    All weapons must be holstered or kept in pockets/suit storage slots unless absolutely required;
+    Revistar tripulantes de modo aleatorio não é permitido sem um pedido formal dos respectivos Chefe dos Funcionários ou Capitão. Porém, revistas ainda são permitidas se possuirem uma evidência clara que um crime foi cometido;
 
-    Random searches are not permitted without express permission by either the Head of Security or Captain. However, searches are still permitted if there is reasonable suspicion of a crime.
+    [bold]Áreas Restritas:[/bold]
 
-    [bold]Secure Areas:[/bold]
+    O Armazém de EVA, Armazém de Tecnologia, Gerador de Gravidade, Armazém restrito de Engenharia, Upload da IA, Cofre, Portal(Gateway), e qualquer outro lugar que precise do acesso nível comando que não é frequentemente usado.
 
-    EVA Storage, Tech Storage, Gravity Generator, Engineering Secure Storage, AI Upload, Vault, Gateway, anywhere else requiring command level access that does not get regularly used.
+    Áreas restritas como o Armazém de EVA devem permanecer destrancadas e prontas para serem usados da forma que foram planejados originalmente.
+    
 
-    Secure areas such as EVA are to be left unbolted and ready to be used for their intended purposes.
+    Exceções abaixo;
 
-    Exceptions are below;
+    O Cofre não deve ser aberto a não ser que reparos sejam necessários, o ouro seja necessário para Pesquisas e Desenvolvimento (em caso onde os mineiradores falhem e coletar) ou quando um item crítico deve ser escondido em um lugar seguro.
 
-    The Vault is not to be opened unless repairs are required, gold is required for Research and Development (in case Mining fails to deliver) or a critical item needs to be hidden in the safe.
+    Mandatos de revista sobre pessoas ou departamento precisam ser assinados e carimbados pelo Capitão ou Chefe dos Funcionários.
 
-    Searches of a person or department need to have a signed and stamped warrant by the Captain or HoP.
+    [bold]Tripulantes no Geral:[/bold]
 
-    [bold]General Crew:[/bold]
+    Mesmo que não seja necessário, é recomendado que os tripulantes ativem e maximizem os sensores de suas roupas, devido ao potencial risco de acidentes em trabalho;
 
-    While not required, it is recommended that the crew activate and maximize their Suit Sensors, due to the potential for workplace accidents;
-
-    Free transit through the station is permitted for the crew, excluding Secure Areas.
+    Transitar livremente pela estação é permitido para os tripulantes, exceto em Áreas restritas.
 </Document>

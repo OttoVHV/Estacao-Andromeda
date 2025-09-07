@@ -1,99 +1,100 @@
 ﻿<Document>
-  # Command Training Manual
+  # Manual de Treinamento do Comando
 
-  Welcome to your new job, command member.
+  Bem-vindo ao seu novo trabalho, membro do comando.
+  
+  Nós da Nanotrasen admiramos sua dedicação e disposição em fazer o que for necessário para o bem-estar da corporação.
+  Abaixo, você encontrará um material de treinamento a respeito das informações confidenciais que você foi informado anteriormente.
 
-  We at Nanotrasen praise your dedication to safety and willingness to do anything for the wellbeing of the corporation.
-  Below, you will find training material regarding the confidential information you were informed of prior.
+  O material a seguir está disponível como sua referência, para o seu treinamento e para o seu uso.
+  As informações foram protejadas de modo a auxiliar os membros do Comando em seu desenvolvimento profissional.
+  Por favor use esse material para expandir o seu entendimento, aprimorar o seu conhecimento profissional e avançar em sua carreira.
 
-  The following material is available for your reference, training, and use.
-  The information is designed to assist Command members in their professional development.
-  Please use the material to expand your understanding, enhance your professional knowledge, and to further your career.
+  Por favor, lembre-se também de que todo este material é [bold]confidencial,[/bold] conforme o Acordo de Confidencialidade (NDA) que você assinou ao ser contratado.
+  O descumprimento dos termos do seu contrato de trabalho será punido com ações legais imediatas
 
-  Please also remember that all of this material is [bold]confidential,[/bold] as per the NDA you signed on employment.
-  Failure to comply with the terms of your employment will be met with swift legal action.
+  ## Sessão I. Confidencialidade
 
-  ## Section I. Confidentiality
+  As informações desse documento devem ser apenas lidas por. Você, e os outros membros do comando, [bold]não[/bold] é permitido de maneira alguma compartilhar essas informações com outros tripulantes da estação sem razões suficientes.
 
-  All the information in this document is for your eyes only. You, and your fellow command members, are [bold]not[/bold] to share this information without sufficient reason.
+  Caso haja um vazamento das informações confidenciais você enfrentará uma ação judicial do Comando Central. Seja por meio de um de seus representantes ou pelo próprio dono da organização.
+  Você, como um dos líderes da estação, deve liderar a tripulação mesmo através de potenciais perigos. Espalhar medo desnecessariamente pelos tripulantes é explicitamente contra esse objetivo, e também é contra a vontade da Nanotrasen.
+  As naves e estações da Nanotrasen são completamente seguras. Você, como principal representante da vontade da corporação deve apenas garantir que esse fato continue sendo uma verdade.
 
-  Carelessly leaking this confidential information will be met with swift action from Central Command; whether that be through one of its representatives or through the organization itself.
-  You, as one of the leaders of the station, are to lead the crew through any potential dangers. Needlessly sowing fear within the crew is explicitly against this goal, and it is also against Nanotrasen's will.
-  Nanotrasen and its associated ships and stations are safe. You, as a primary representative of corporate's will, must make sure this fact stays true.
+  Porém, os tripulantes podem acabar experienciando situações onde talvez você precisa divulgar informações confidenciais.
+  Nós da Nanotrasen confiamos você a divulgar essas informações a partir do seu próprio discernimento, mas também devemos lembrar que qualquer membro do comando que divulgar informações confidenciais sem necessidade não será tratado com gentileza.
+  Depois de qualquer quebra de confidencialidade, você deve reportar qual informação foi divulgada, quando, quem divulgou e o motivo. As denúncias devem ser feitas ao seu Representante da Nanotrasen ou ao próprio Comando Central.
+  O Representante da Nanotrasen vai informar aos membro do comando se a confidencialidade foi quebrada de boa fé, e vão dar mais informações de volta se necessário.
 
-  However, the crew may still experience situations that require you to divulge otherwise confidential information.
-  We at Nanotrasen trust you to divulge this information at your discretion, and we remind any command members that any unnecessary confidentiality breaks will not be treated kindly.
-  After any such confidentiality breaks, you are to report what information was divulged, when, to who, and why. These reports may be made to your Nanotrasen Representative or Central Command itself.
-  The Nanotrasen Representative will inform command members if the confidentiality break was done in good faith, and they will report back as necessary.
+  ## Sessão II. Ameaças
 
-  ## Section II. Threats
+  Abaixo você vai encontrar uma lista de possíveis ameaças e algumas recomendações sobre como lidar com elas.
 
-  Below you will find a list of threats and recommended action to dealing with them.
+  [color=red]Essas são apenas ações recomendadas, não exatamente procedimento operacional.[/color]
+  
+  Nós da Nanotrasen entendemos que os turnos pode tomar um rumo inesperado, então nenhuma ação vai ser tomada contra você ou contra os seus queridos tripulantes caso desastres ocorram.
+  
+  - [bold]Ladrões[/bold]
 
-  [color=red]This is recommended action, not explicit operating procedure.[/color]
-  We at Nanotrasen understand that shifts may deviate from the expected results, so no action will be taken against you or your fellow crew mates for mistakes.
+  Ladrões são comuns, especialmente no vasto espaço onde você provavelmente está estacionado. Sempre use a Lei espacial para lidar com qualquer Ladrão.
+  Esses ladrões talvez possuam contrabando que a sua equipe de segurança não esteja ciente sobre. O Chefe da segurança deve considerar divulgar apenas informações sobre o contrabando encontrado
+  para o Detetive, evitando causar pânico desnecessário a outros membros da equipe ou tripulação.
+  
+  - [bold]Agentes do Sindicato Disfarçados[/bold]
 
-  - [bold]Petty thieves[/bold]
+  A propriedade e os funcionários da Nanotrasen constantemente são alvos do Sindicato, porém, os tripulantes não devem se preocupar com esse problema. Lide com esses agentes dentro da Lei espacial e usando discernimento.
+  Membros do comando devem considerar divulgar informações sobre o Sindicato apenas se ele for uma presença constante e notável dentro da estação, e mesmo assim, eles devem considerar divulgar isso apenas para o departamento de segurança.
+  
+  - [bold]Revolucionários[/bold]
 
-  Petty thievery is common, especially the further out in space that you may be stationed. Deal with any thieves under space law.
-  These thieves may have contraband that your security team is not made aware of. The Head of Security should consider only divulging information about said contraband
-  to the Detective, as to not cause any undue fear.
+  Os tripulantes da Nanotrasem podem acabar ficando transtornados com suas condições de trabalho. Considere lidar com isso da maneira mais pacífica possível, como oferecendo a eles uma festa de pizza grátis.
+  Porém, se os tripulantes continuarem insatisfeitos com suas condições de trabalho, talvez seja possível que sua lealdade com a Nanotrasen tenha sido adulterada.
+  Instrua o departamento de segurança a usar implantes de escudo mental(Mindshield) em quantos tripulantes for possivel, e prenda qualquer tripulante que recusar a ser implantado de forma pacífica.
+  No caso de encontrarem o líder que iniciou toda essa revolução, execução é uma opção porém não é recomendada.
 
-  - [bold]Undercover Syndicate Agents[/bold]
+  - [bold]Agentes Nucleares[/bold]
 
-  Nanotrasen property and people are a consistent target for the Syndicate, however, the crew should not have to worry about any such issues. Deal with said agents under space law and with discretion.
-  Command members should only consider divulging information about the Syndicate if there is a noticeable and constant presence on the station, and even then, they should consider only informing the security team.
-
-  - [bold]Revolutionaries[/bold]
-
-  Nanotrasen crew members may become upset with the working conditions. Consider dealing with this as peacefully as possible, such as offering free pizza parties.
-  However, if the crew remains dissatisfied with the working conditions, it is possible that their loyalty to Nanotrasen has been tampered with.
-  Instruct the security team to mindshield as many crew mates as possible, and arrest and mindshield any crew members spearheading the cause.
-  In the event of a particularly disruptive head revolutionary, execution is also an option, but not recommended.
-
-  - [bold]Nuclear Agents[/bold]
-
-  Some Syndicate agents are specifically on station in order to detonate the emergency nuclear device. This is a highly dangerous emergency situation, and security should be armed to deal with the threat as soon as possible.
-  Crew members should be instructed to shelter in place, as they are civilians with no security training or experience. In the event of a weak or nonexistent security force, command may enlist and arm crew mates as necessary.
+  Alguns agentes do Sindicato são especificamente enviados a estação com o objetivo de detonar o dispositivo nuclear de emergência. Essa é uma situação de alto risco e emergência extrema, os seguranças devem se armar e lidar com a ameaça o quanto antes.
+  Tripulantes devem ser instruídos a se abrigarem em um lugar seguro, por serem apenas civis sem treinamento de segurança ou experiência em combate. Em uma situação onde a segurança é fraca ou praticamente inexistente, membro do comando devem alistar e armar os tripulantes se necessário.
 
   - [bold]Blob Xenofauna[/bold]
 
-  Central Command's sensors can detect any dangerous xenofauna above a certain size, and will send an automatic announcement. Neutralize the threat as soon as possible, under any circumstance.
+  Os sensores do Comando Central são capazes de detectar qualquer fauna alienígena perigosa a partir de um certo tamanho, isso enviara um anúncio autotomático. Neutralizem a ameaça o quanto antes acima de qualquer circunstância.
 
-  - [bold]Changelings[/bold]
+  - [bold]Metamorfos[/bold]
 
-  Some crew mates may not be crew mates at all; a hostile predatory life form, colloquially known as changelings, may have taken a similar form as them.
-  These creatures are to be dealt with discreetly and quickly, as they require the death of crew in order to survive.
-  Since these life forms have been known as extinct to the public, it is recommended to lie to the crew in order to preserve the hard work of Nanotrasen's marketing team.
+  Alguns tripulantes talvez não sejam realmente o que aparentam ser, ao em vez disso são uma forma de vida hostil e predadora, conhecida popularmente como Metamorfo que talvez tenham assumido uma forma similiar a eles.
+  É necessário lidar com essas criaturas rapidamente e de maneira discreta, uma vez que eles precisam da morte dos tripulantes para sobreviver.
+  Essas formas de vida foram consideradas extintas para o publico, então é recomendado mentir para os tripulantes de modo a preservar o trabalho duro do time de marketing da Nanotrasen.
 
-  - [bold]Dragons and Carp[/bold]
+  - [bold]Dragões e Carpas[/bold]
 
-  Dragons are incredibly territorial and hostile xenofauna, and they should be dealt with as quickly as possible.
-  There is no need to keep such the existence of such xenofauna a secret to the crew, however, Nanotrasen encourages the security team to try and keep crew from panicking.
-
+  Dragões são criaturas extremamente territoriais e hostis, deve se lidar com eles o mais rapido possível.
+  Não existe nenhuma necessidade em manter essa forma de vida em segredo, porém, A Nanotrasen encoraja que o departamento de segurança tente manter a tripulação fora de pânico.
+  
   - [bold]Ninjas[/bold]
 
-  Some people may attempt to infiltrate the station with the goal of stealing Nanotrasen secrets and research. These are likely ninjas, and they should be dealt with as soon as possible.
-  Nanotrasen recommends trying to discreetly deal with them as soon as possible to prevent any sort of espionage, regardless of the intention.
+  Algumas pessoas talvez tentem se infiltrar na estação com o objetivo de roubar os segredos e as pesquisas da Nanotrasen. Essas pessoas são os ninjas, deve se lidar com eles o mais cedo possível.
+  A Nanotrasen recomenda tentar lidar com eles discretamente e o mais cedo possível para previnir qualquer tipo de espionagem, independente da intenção.
 
-  - [bold]Revenants[/bold]
+  - [bold]Revenantes[/bold]
 
-  Some former crew mates may find it hard to move on after an untimely death caused by their own negligence.
-  Nanotrasen recommends enlisting the Chaplain as an exorcist, without letting the living crew know about any prior deaths on the station.
+  Revenantes são tripulantes da estação que após serem mortos pela sua própria negligência simplesmente se negam a passar dessa pra melhor.
+  A Nanotrasen recomenda alistar um Padre como exorcista, e não deixe que os tripulantes saibam de nenhuma morte recente.
 
-  - [bold]Heretics[/bold]
+  - [bold]Hereges[/bold]
 
-  Some individual crewmates may find ways to use more magical powers. These powers are heretical and not sanctioned by Nanotrasen. You should try to neutralize their powers while still keeping their work contract intact.
-  The Head of Security should consider only divulging information regarding the specific case, such as heretics being able to teleport with a magical focus.
+  Alguns tripulantes em específico talvez descubram um jeito de usar poderes mágicos. Poderes heréticos e não aprovados pela Nanotrasen. Você deve tentar neutralizar seus poderes enquanto ainda tenta manter o contrato de trabalho deles intacto.
+  O Chefe da Segurança deve considerar divulgar informações sobre os Hereges apenas em casos específicos. Exemplo quando for realizar a prisão de um Herege, notificar ao carcereiro ou demais seguranças que eles possuem a capacidade de se teleportar.
 
-  - [bold]Cults[/bold]
+  - [bold]Cultos[/bold]
 
-  In contrast, cults are highly dangerous, organized groups of magical power.
-  The Head of Security may consider telling all the security force and the chaplain about a cult presence.
-  The chaplain, in particular, should be protected and made aware of any events.
+  Em contraste, cultos são grupos organizações de pessoas com  poderes mágicos extremamente perigosos.
+  O Chefe da Segurança deve considerar contar para todo o departamento de segurança e ao Padre sobre a presença do culto na estação.
+  O Padre em particular, deve ser protegido e ficar ciente de todos os acontecimentos envolvendo o culto.
 
-  - [bold]Zombies[/bold]
+  - [bold]Zumbis[/bold]
 
-  In the event of a zombie infection, the Chief Medical Officer and their associated medical team should be made the highest priority on the station.
-  Due to the nature of zombie infections, there is no need to withhold any information about them. The station alert level should be set to Violet and go into an emergency state.
+  Em caso de infecção zumbi, o Médico Chefe(CMO) e o departamento de medicina devem ser a maior prioridade da estação.
+  Devido a natureza da infecção zumbi, não é necessário manter nenhum segredo sobre. O código de alerta da estação deve ser colocado em Violeta e entrar em modo de emergência.
 </Document>
