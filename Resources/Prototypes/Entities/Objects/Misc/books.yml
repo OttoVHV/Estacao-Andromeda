@@ -396,8 +396,8 @@
       color: "#f7d61a"
   - type: GuideHelp
     guides:
-    - SpaceLaw
-    - RulesOfConduct
+    - SpaceLaw Initial
+    - SOP101
 
 - type: entity
   parent: BookBase

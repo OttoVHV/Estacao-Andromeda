@@ -9,9 +9,9 @@
 
 - type: guideEntry
   id: SOP101
-  name: SOP 101
+  name: POP 101
   text: "/ServerInfo/Funkystation/Guidebook/SOP/SOP101.xml"
-  priority: 999
+  priority: 2
   children:
   - CommandSOP
   - SecuritySOP
