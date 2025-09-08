@@ -31,7 +31,7 @@
   id: Glacier
   mapName: 'Glacier'
   mapPath: /Maps/_Funkystation/glacier.yml
-  minPlayers: 30
+  minPlayers: 20
   stations:
     Glacier:
       stationProto: StandardNanotrasenStation
