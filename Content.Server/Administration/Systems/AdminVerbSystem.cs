@@ -231,8 +231,8 @@ namespace Content.Server.Administration.Systems
                         // Clone - Spawn but without the mind transfer, also spawns at the user's coordinates not the target's
                         args.Verbs.Add(new Verb()
                         {
-                            Text = Loc.GetString("admin-player-actions-clone"),
-                            Category = VerbCategory.Admin,
+                            Text = $"{slot}. {profile.Name}",
+                            Category = VerbCategory.Clone,
                             Act = () =>
                             {
                                 if (!_transformSystem.TryGetMapOrGridCoordinates(args.User, out var coords))
@@ -242,8 +242,8 @@ namespace Content.Server.Administration.Systems
                                 }
 
                                 var stationUid = _stations.GetOwningStation(args.Target);
-                                var profile = _humanoidAppearance.GetBaseProfile(args.Target);
-                                _spawning.SpawnPlayerMob(coords.Value, null, profile, stationUid);
+
+                                _spawning.SpawnPlayerMob(coords.Value, null, humanoidProfile, stationUid);
                             },
                             ConfirmationPopup = true,
                             Impact = LogImpact.High,

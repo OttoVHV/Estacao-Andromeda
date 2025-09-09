@@ -61,6 +61,9 @@ namespace Content.Shared.Verbs
         public static readonly VerbCategory Spawn =
             new("admin-player-actions-spawn", "/Textures/Interface/emotes.svg.192dpi.png");
 
+        public static readonly VerbCategory Clone =
+            new("admin-player-actions-clone", "/Textures/Interface/emotes.svg.192dpi.png");
+
         public static readonly VerbCategory Antag =
             new("verb-categories-antag", "/Textures/Interface/VerbIcons/antag-e_sword-temp.192dpi.png", iconsOnly: true) { Columns = 5 };
 
