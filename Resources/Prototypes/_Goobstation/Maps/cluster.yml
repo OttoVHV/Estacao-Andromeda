@@ -47,6 +47,7 @@
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
+            BlueshieldOfficer: [ 1, 1 ]
             #service
             StationAi: [ 1, 1 ]
             Captain: [ 1, 1 ]

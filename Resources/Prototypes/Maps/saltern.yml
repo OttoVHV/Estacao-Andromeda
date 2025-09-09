@@ -47,6 +47,7 @@
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
+            BlueshieldOfficer: [ 1, 1 ]
             #service
             # Goobstation - TODO: add bso and ntr
             # Goobstation - Me did it, Icepick

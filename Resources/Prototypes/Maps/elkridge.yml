@@ -51,6 +51,7 @@
           path: /Maps/Shuttles/cargo_elkridge.yml
         - type: StationJobs
           availableJobs:
+            BlueshieldOfficer: [ 1, 1 ]
             #service
             Captain: [ 1, 1 ]
             Magistrate: [ 1, 1 ]

@@ -46,6 +46,7 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency_crimson.yml
         - type: StationJobs
           availableJobs:
+            BlueshieldOfficer: [ 1, 1 ]
             #service
             # Goobstation - TODO: add bso and ntr
             Captain: [ 1, 1 ]

@@ -45,6 +45,7 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency_meta.yml
         - type: StationJobs
           availableJobs:
+            BlueshieldOfficer: [ 1, 1 ]
             #service
             StationAi: [ 1, 1 ]
             Captain: [ 1, 1 ]
@@ -94,3 +95,4 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 2, 2 ]
+            
